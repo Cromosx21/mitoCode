@@ -19,7 +19,7 @@ Este es un proyecto desarrollado con **React** y **Vite**, usando **TailwindCSS*
 
 ### 1️⃣ Clonar el repositorio
 ```sh
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/Cromosx21/mitoCode.git
 cd mitocode
 ```
 
