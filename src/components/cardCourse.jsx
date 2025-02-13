@@ -35,7 +35,7 @@ export default function CardCourse({ imgCourse, id, nameCourse, subtitulo, dateI
 								{dateInit !== "No disponible" ? (
 									<p>{dateInit}</p>
 								) : null}
-								<div className="flex flex-row gap-1 items-center">
+								<div className="flex flex-row gap-1 items-center min-w-24 justify-end ">
 									{mode !== "En vivo" ? (
 										<span className="text-sky-400 text-lg">
 											<FontAwesomeIcon
