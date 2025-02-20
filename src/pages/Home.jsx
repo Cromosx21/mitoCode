@@ -3,6 +3,8 @@ import { CourseContext } from "../context/CourseContext";
 import Navbar from "../loyauts/Navbar";
 import Footer from "../loyauts/Footer";
 import CardCourse from "../components/cardCourse";
+import Hero from "../loyauts/Hero";
+import Learning from "../loyauts/Learning";
 
 export default function Home() {
     const { courses, searchTerm } = useContext(CourseContext);
@@ -15,6 +17,8 @@ export default function Home() {
 	return (
 		<div className="font-Montserrat">
 			<Navbar />
+			<Hero />
+			<Learning />
 			<section className="bg-slate-50 w-full py-8 px-6">
 				<div className="max-w-7xl mx-auto flex flex-row flex-wrap gap-12 justify-center ">
 					{filteredCourses.length > 0 ? (
