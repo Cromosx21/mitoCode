@@ -1,16 +1,33 @@
+import CardLearning from "../components/CardLearning";
+
 export default function Learning() {
     return (
-        <section className="bg-sky-900 w-full py-16 px-6 ">
-            <div className="max-w-7xl mx-auto">
-                <h2 className="text-3xl font-semibold text-sky-500 text-center">¿Cómo aprenderás <strong className="text-sky-200 font-semibold">en Mitocode?</strong></h2>
-                <figure className="flex flex-col gap-2">
-                    <img src="" alt="" />
-                    <figcaption>
-                        Aprendizaje basado en proyectos desde cero
-                    </figcaption>
-                </figure>
-
-            </div>
-        </section>
-    );
+		<section className="bg-sky-950 w-full py-16 px-6 ">
+			<div className="max-w-7xl mx-auto">
+				<h2 className="text-3xl font-semibold text-sky-400 text-center">
+					¿Cómo aprenderás{" "}
+					<strong className="text-sky-200 font-semibold">
+						en Mitocode?
+					</strong>
+				</h2>
+				<div className="grid grid-cols-3 gap-16 items-center mt-8">
+					<CardLearning
+						icon="Aprendizaje.png"
+						alt="Icono de aprendizaje"
+						description="Aprendizaje basado en proyectos reales"
+					/>
+					<CardLearning
+						icon="Cursos-practicos.png"
+						alt="Icono de cursos"
+						description="Cursos 100% prácticos con casos laborales"
+					/>
+					<CardLearning
+						icon="Conecta-en-tiempo-real.png"
+						alt="Icono de conectividad"
+						description="Conecta, interactúa y aprende con docentes en tiempo real"
+					/>
+				</div>
+			</div>
+		</section>
+	);
 }

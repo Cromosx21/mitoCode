@@ -5,6 +5,7 @@ import Footer from "../loyauts/Footer";
 import CardCourse from "../components/cardCourse";
 import Hero from "../loyauts/Hero";
 import Learning from "../loyauts/Learning";
+import About from "../loyauts/About";
 
 export default function Home() {
     const { courses, searchTerm } = useContext(CourseContext);
@@ -19,6 +20,7 @@ export default function Home() {
 			<Navbar />
 			<Hero />
 			<Learning />
+			<About />
 			<section className="bg-slate-50 w-full py-8 px-6">
 				<div className="max-w-7xl mx-auto flex flex-row flex-wrap gap-12 justify-center ">
 					{filteredCourses.length > 0 ? (
