@@ -10,7 +10,7 @@ export default function Learning() {
 						en Mitocode?
 					</strong>
 				</h2>
-				<div className="grid grid-cols-3 gap-16 items-center mt-8">
+				<div className="flex items-start flex-wrap flex-row justify-center gap-16 mt-16">
 					<CardLearning
 						icon="Aprendizaje.png"
 						alt="Icono de aprendizaje"

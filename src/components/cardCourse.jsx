@@ -13,7 +13,7 @@ export default function CardCourse({ imgCourse, id, nameCourse, subtitulo, dateI
     
 	return (
 		<>
-			<figure className="rounded-xl max-w-sm w-full bg-blue-950 overflow-hidden text-gray-50 group">
+			<figure className="rounded-xl max-w-sm w-full bg-sky-950 overflow-hidden text-gray-50 group border border-sky-200">
 				<img
 					src={imgCourse}
 					alt={`Curso de ${nameCourse}`}
