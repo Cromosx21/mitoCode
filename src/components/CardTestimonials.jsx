@@ -7,7 +7,8 @@ export default function CardTestimonials({ testimonial, imageUser, nameUser, job
 					<img
 						src={`../src/assets/Nuestro-Equipo/${imageUser}`}
 						alt={`Foto de ${nameUser}`}
-						className="max-w-16 rounded-full"
+						className="max-w-16 rounded-full aspect-square"
+						loading="lazy"
 					/>
 					<figcaption>
 						<h3 className="text-sm font-semibold text-gray-800">

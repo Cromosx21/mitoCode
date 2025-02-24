@@ -14,7 +14,7 @@ export default function Hero() {
                     </button>
                 </div>
                 <div className="z-10">
-                    <img src="../../public/hero.png" alt="Imagen referencial de un una persona aprendiendo a programar" className="max-w-2xl w-full" />
+                    <img src="../../public/hero.png" alt="Imagen referencial de un una persona aprendiendo a programar" className="max-w-2xl w-full aspect-auto" />
                 </div>
 
             </div>

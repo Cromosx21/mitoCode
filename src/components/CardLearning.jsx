@@ -5,7 +5,7 @@ export default function CardLearning({ icon, alt, description}) {
 				<img
 					src={`../src/assets/icons/${icon}`}
 					alt={alt}
-					className="max-w-16 h-max-w-16"
+					className="max-w-16 h-max-w-16 aspect-square"
 				/>
 				<figcaption>
 					<p className="text-gray-50 text-center text-sm">

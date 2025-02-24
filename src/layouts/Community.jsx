@@ -12,7 +12,7 @@ export default function Community() {
 						sociales
 					</p>
 				</div>
-                <div className="flex gap-6 text-3xl">
+                <div className="flex flex-row flex-wrap gap-2 sm:gap-6 text-3xl">
                     <a
                         href="https://facebook.com"
                         target="_blank"
