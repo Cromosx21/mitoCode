@@ -1,15 +1,15 @@
-import Navbar from "../loyauts/Navbar";
-import Footer from "../loyauts/Footer";
-import Hero from "../loyauts/Hero";
-import Learning from "../loyauts/Learning";
-import About from "../loyauts/About";
-import Courses from "../loyauts/Courses";
-import Community from "../loyauts/Community";
-import Testimonials from "../loyauts/Testimonials";
+import Navbar from "../layouts/Navbar";
+import Footer from "../layouts/Footer";
+import Hero from "../layouts/Hero";
+import Learning from "../layouts/Learning";
+import About from "../layouts/About";
+import Courses from "../layouts/Courses";
+import Community from "../layouts/Community";
+import Testimonials from "../layouts/Testimonials";
+import Brands from "../layouts/Brands";
+import Cta from "../layouts/Cta";
 
 export default function Home() {
-
-
 	return (
 		<div className="font-Montserrat">
 			<Navbar />
@@ -19,6 +19,8 @@ export default function Home() {
 			<Courses />
 			<Community />
 			<Testimonials />
+			<Brands />
+			<Cta />
 			<Footer />
 		</div>
 	);

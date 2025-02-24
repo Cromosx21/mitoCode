@@ -12,6 +12,6 @@ createRoot(document.getElementById('root')).render(
       <CourseProvider>
         <RoutesApp />
       </CourseProvider>
-    </StrictMode>,
+    </StrictMode>
   </BrowserRouter>
 )
