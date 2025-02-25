@@ -26,14 +26,14 @@ export default function Cta() {
                         <i className="fa-brands fa-whatsapp text-4xl text-sky-900"></i>
                         <div>
 							<h3 className="text-sky-900 font-semibold text-sm">HABLA CON NOSOTROS</h3>
-							<span className=" text-gray-900 text-sm">+51 987 654 321</span>
+							<span className=" text-gray-900 text-sm">+51 912 258 843</span>
 						</div>
 					</article>
                     <article className="col-span-1 py-8 lg:border-x-2 lg:border-x-gray-50 px-8 flex flex-row gap-2">
                         <i className="fa-regular fa-message text-4xl text-sky-900"></i>
 						<div>
 							<h3 className="text-sky-900 font-semibold text-sm">ESCRÍBENOS</h3>
-							<span className=" text-gray-900 text-sm">cursos@mitocodenetwork.com</span>
+							<span className=" text-gray-900 text-sm">istpmetawill@gmail.com</span>
 						</div>
 					</article>
                     <article className="col-span-1 py-8 px-8 flex flex-row gap-2">

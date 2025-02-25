@@ -10,14 +10,14 @@ export default function SubMenuCursos() {
 	const [selectedCategory, setSelectedCategory] = useState("online");
 
 	return (
-		<div className="absolute top-full left-0 flex bg-gray-50 shadow-md rounded-md min-w-2xl w-fit">
+		<div className="absolute top-full left-0 flex bg-gray-100 shadow-md rounded-md min-w-3xl w-fit text-gray-800 text-sm font-semibold">
 			{/* Panel izquierdo: Categorías */}
-			<div className=" border-r p-4 ">
+			<div className="p-4 w-md ">
 				{/* Cursos Online */}
 				<div
-					className={`flex items-center justify-between p-2 cursor-pointer ${
+					className={`flex items-center justify-between p-2 cursor-pointer rounded-md  ${
 						selectedCategory === "online"
-							? "bg-gray-50 text-sky-500"
+							? "bg-gray-50"
 							: "hover:bg-gray-100"
 					}`}
 					onClick={() => setSelectedCategory("online")}
@@ -31,9 +31,9 @@ export default function SubMenuCursos() {
 
 				{/* Cursos Presenciales */}
 				<div
-					className={`flex items-center justify-between p-2 cursor-pointer ${
+					className={`flex items-center justify-between p-2 cursor-pointer rounded-md ${
 						selectedCategory === "presencial"
-							? "bg-gray-200"
+							? "bg-gray-50"
 							: "hover:bg-gray-100"
 					}`}
 					onClick={() => setSelectedCategory("presencial")}
@@ -47,7 +47,7 @@ export default function SubMenuCursos() {
 			</div>
 
 			{/* Panel derecho: Contenido de la categoría seleccionada */}
-			<div className=" p-4 bg-gray-50">
+			<div className=" p-4 bg-gray-50 w-full">
 				{selectedCategory === "online" ? (
 					<>
 						<p className="p-2 hover:bg-gray-100 cursor-pointer">

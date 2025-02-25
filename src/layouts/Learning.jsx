@@ -7,7 +7,7 @@ export default function Learning() {
 				<h2 className="text-3xl font-semibold text-sky-400 text-center">
 					¿Cómo aprenderás{" "}
 					<strong className="text-sky-200 font-semibold">
-						en Mitocode?
+						en MetaWill?
 					</strong>
 				</h2>
 				<div className="flex items-start flex-wrap flex-row justify-center gap-16 mt-16">
