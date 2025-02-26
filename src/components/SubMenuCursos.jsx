@@ -15,10 +15,10 @@ export default function SubMenuCursos() {
 			<div className="p-4 w-md ">
 				{/* Cursos Online */}
 				<div
-					className={`flex items-center justify-between p-2 cursor-pointer rounded-md  ${
+					className={`flex items-center justify-between p-2 cursor-pointer rounded-md text-gray-500  ${
 						selectedCategory === "online"
-							? "bg-gray-50"
-							: "hover:bg-gray-100"
+							? "bg-sky-100 text-gray-800"
+							: "hover:bg-sky-50 hover:text-gray-800"
 					}`}
 					onClick={() => setSelectedCategory("online")}
 				>
@@ -31,10 +31,10 @@ export default function SubMenuCursos() {
 
 				{/* Cursos Presenciales */}
 				<div
-					className={`flex items-center justify-between p-2 cursor-pointer rounded-md ${
+					className={`flex items-center justify-between p-2 cursor-pointer rounded-md text-gray-500 ${
 						selectedCategory === "presencial"
-							? "bg-gray-50"
-							: "hover:bg-gray-100"
+							? "bg-sky-100 text-gray-800"
+							: "hover:bg-sky-50 hover:text-gray-800"
 					}`}
 					onClick={() => setSelectedCategory("presencial")}
 				>
@@ -50,31 +50,31 @@ export default function SubMenuCursos() {
 			<div className=" p-4 bg-gray-50 w-full">
 				{selectedCategory === "online" ? (
 					<>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer">
+						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
 							Backend
 						</p>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer">
+						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
 							Cloud e infraestructura
 						</p>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer">
+						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
 							DevOps
 						</p>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer font-semibold">
+						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
 							Ver todos
 						</p>
 					</>
 				) : (
 					<>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer">
+						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
 							Backend Presencial
 						</p>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer">
+						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
 							Cloud e infraestructura Presencial
 						</p>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer">
+						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
 							DevOps Presencial
 						</p>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer font-semibold">
+						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
 							Ver todos
 						</p>
 					</>

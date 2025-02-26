@@ -17,7 +17,7 @@ export default function Courses() {
 
 	return (
 		<>
-			<section className="bg-sky-950 w-full py-16 px-6">
+			<section className="bg-gray-800 w-full py-16 px-6">
 				<div className="max-w-screen-xl mx-auto flex flex-col flex-wrap gap-12 overflow-visible">
 					<h2 className="text-3xl font-bold text-gray-50">
 						Nuestros Cursos

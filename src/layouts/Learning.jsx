@@ -2,7 +2,7 @@ import CardLearning from "../components/CardLearning";
 
 export default function Learning() {
     return (
-		<section className="bg-sky-950 w-full py-16 px-6 ">
+		<section className="bg-gray-800 w-full py-16 px-6 ">
 			<div className="max-w-7xl mx-auto">
 				<h2 className="text-3xl font-semibold text-sky-400 text-center">
 					¿Cómo aprenderás{" "}

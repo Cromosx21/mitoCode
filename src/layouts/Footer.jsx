@@ -2,7 +2,7 @@ import Logo from "../components/Logo";
 
 export default function Footer() {
     return (
-		<footer className="bg-sky-950 text-gray-300 pt-16 pb-6 px-6 w-full ">
+		<footer className="bg-gray-800 text-gray-300 pt-16 pb-6 px-6 w-full ">
 			<div className="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 grid-auto-rows gap-6 pb-6">
 				<div className="col-span-1 flex flex-col gap-8">
 					<h2 className="text-lg font-semibold text-sky-200">
