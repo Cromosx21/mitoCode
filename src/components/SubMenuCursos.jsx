@@ -5,6 +5,7 @@ import {
 	faGlobe,
 	faFlag,
 } from "@fortawesome/free-solid-svg-icons";
+import AnchorSubMenu from "./AnchorSubMenu";
 
 export default function SubMenuCursos() {
 	const [selectedCategory, setSelectedCategory] = useState("online");
@@ -49,20 +50,16 @@ export default function SubMenuCursos() {
 			{/* Panel derecho: Contenido de la categoría seleccionada */}
 			<div className=" p-4 bg-gray-50 w-full">
 				{selectedCategory === "online" ? (
-					<>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
-							Backend
-						</p>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
-							Cloud e infraestructura
-						</p>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
-							DevOps
-						</p>
-						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">
-							Ver todos
-						</p>
-					</>
+					<ul>
+						<AnchorSubMenu icon="fa-sticky-note" nameModule="Ofimática" />
+						<AnchorSubMenu icon="fa-palette" nameModule="Diseño Gráfico" />
+						<AnchorSubMenu icon="fa-laptop" nameModule="Diseño Web" />
+						<AnchorSubMenu icon="fa-code" nameModule="Programación" />
+						<AnchorSubMenu icon="fa-database" nameModule="Base de Datos" />
+						<AnchorSubMenu icon="fa-rocket" nameModule="Tecnologías 2030" />
+						<AnchorSubMenu icon="fa-globe" nameModule="Cursos Internacionales" />
+						<AnchorSubMenu icon="fa-language" nameModule="Idiomas" />
+					</ul>
 				) : (
 					<>
 						<p className="p-2 hover:bg-gray-100 cursor-pointer hover:text-sky-500">

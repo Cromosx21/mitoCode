@@ -1,0 +1,1598 @@
+[
+    {
+        "id": "curso-1",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Windows 11",
+        "subtitulo": "Introducción a Windows 11",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Ofimatica",
+        "detalles": {
+            "acerca": "Este curso de Windows 11 está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Windows 11",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-2",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Word 2021 - Basico",
+        "subtitulo": "Introducción a Word 2021 - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Ofimatica",
+        "detalles": {
+            "acerca": "Este curso de Word 2021 - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Formato de documentos",
+                "Uso de estilos y plantillas",
+                "Trabajo con tablas e imágenes"
+            ],
+            "temario": [
+                "Fundamentos de Word 2021 - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-3",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Word 2021  - Intermedio",
+        "subtitulo": "Introducción a Word 2021  - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Ofimatica",
+        "detalles": {
+            "acerca": "Este curso de Word 2021  - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Formato de documentos",
+                "Uso de estilos y plantillas",
+                "Trabajo con tablas e imágenes"
+            ],
+            "temario": [
+                "Fundamentos de Word 2021  - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-4",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Excel 2021 - Basico",
+        "subtitulo": "Introducción a Excel 2021 - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Ofimatica",
+        "detalles": {
+            "acerca": "Este curso de Excel 2021 - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Dominio de fórmulas y funciones",
+                "Análisis de datos",
+                "Tablas dinámicas y gráficos"
+            ],
+            "temario": [
+                "Fundamentos de Excel 2021 - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-5",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Excel 2021 - Intermedio",
+        "subtitulo": "Introducción a Excel 2021 - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Ofimatica",
+        "detalles": {
+            "acerca": "Este curso de Excel 2021 - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Dominio de fórmulas y funciones",
+                "Análisis de datos",
+                "Tablas dinámicas y gráficos"
+            ],
+            "temario": [
+                "Fundamentos de Excel 2021 - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-6",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Excel 2021 - Avanzado",
+        "subtitulo": "Introducción a Excel 2021 - Avanzado",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Ofimatica",
+        "detalles": {
+            "acerca": "Este curso de Excel 2021 - Avanzado está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Dominio de fórmulas y funciones",
+                "Análisis de datos",
+                "Tablas dinámicas y gráficos"
+            ],
+            "temario": [
+                "Fundamentos de Excel 2021 - Avanzado",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-7",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Power Point - Basico",
+        "subtitulo": "Introducción a Power Point - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Ofimatica",
+        "detalles": {
+            "acerca": "Este curso de Power Point - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Power Point - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-8",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Power Point - Intermedio",
+        "subtitulo": "Introducción a Power Point - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Ofimatica",
+        "detalles": {
+            "acerca": "Este curso de Power Point - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Power Point - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-9",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Diseño Web I",
+        "subtitulo": "Introducción a Diseño Web I",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 200,
+        "estado": "Cupos Libres",
+        "categoria": "Diseño Web",
+        "detalles": {
+            "acerca": "Este curso de Diseño Web I está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Diseño Web I",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-10",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Diseño Web II",
+        "subtitulo": "Introducción a Diseño Web Ii",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 200,
+        "estado": "Cupos Libres",
+        "categoria": "Diseño Web",
+        "detalles": {
+            "acerca": "Este curso de Diseño Web Ii está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Diseño Web Ii",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-11",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Corel Draw - Basico",
+        "subtitulo": "Introducción a Corel Draw - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 200,
+        "estado": "Cupos Libres",
+        "categoria": "Diseño Grafico",
+        "detalles": {
+            "acerca": "Este curso de Corel Draw - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Corel Draw - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-12",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Corel Draw - Intermedio",
+        "subtitulo": "Introducción a Corel Draw - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Diseño Grafico",
+        "detalles": {
+            "acerca": "Este curso de Corel Draw - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Corel Draw - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-13",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Ilustrator - Basico",
+        "subtitulo": "Introducción a Ilustrator - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Diseño Grafico",
+        "detalles": {
+            "acerca": "Este curso de Ilustrator - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Ilustrator - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-14",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Ilustrator - Intermedio",
+        "subtitulo": "Introducción a  Ilustrator - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Diseño Grafico",
+        "detalles": {
+            "acerca": "Este curso de  Ilustrator - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de  Ilustrator - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-15",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Photoshop - Basico",
+        "subtitulo": "Introducción a Photoshop - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Diseño Grafico",
+        "detalles": {
+            "acerca": "Este curso de Photoshop - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Edición y retoque de imágenes",
+                "Uso de capas y filtros",
+                "Creación de diseños gráficos"
+            ],
+            "temario": [
+                "Fundamentos de Photoshop - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-16",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Photoshop - Intermedio",
+        "subtitulo": "Introducción a  Photoshop - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 150,
+        "estado": "Cupos Libres",
+        "categoria": "Diseño Grafico",
+        "detalles": {
+            "acerca": "Este curso de  Photoshop - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Edición y retoque de imágenes",
+                "Uso de capas y filtros",
+                "Creación de diseños gráficos"
+            ],
+            "temario": [
+                "Fundamentos de  Photoshop - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-17",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Sql 2021 -  Basico",
+        "subtitulo": "Introducción a  Sql 2021 -  Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Base Datos",
+        "detalles": {
+            "acerca": "Este curso de  Sql 2021 -  Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de  Sql 2021 -  Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-18",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Sql 2021 - Intermedio",
+        "subtitulo": "Introducción a  Sql 2021 - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Base Datos",
+        "detalles": {
+            "acerca": "Este curso de  Sql 2021 - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de  Sql 2021 - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-19",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Mysql 2021 - Basico",
+        "subtitulo": "Introducción a Mysql 2021 - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Base Datos",
+        "detalles": {
+            "acerca": "Este curso de Mysql 2021 - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Manejo de bases de datos",
+                "Consultas SQL avanzadas",
+                "Optimización de rendimiento"
+            ],
+            "temario": [
+                "Fundamentos de Mysql 2021 - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-20",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Mysql 2021 - Intermedio",
+        "subtitulo": "Introducción a  Mysql 2021 - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Base Datos",
+        "detalles": {
+            "acerca": "Este curso de  Mysql 2021 - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Manejo de bases de datos",
+                "Consultas SQL avanzadas",
+                "Optimización de rendimiento"
+            ],
+            "temario": [
+                "Fundamentos de  Mysql 2021 - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-21",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Php - Basico",
+        "subtitulo": "Introducción a Php - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Programacion",
+        "detalles": {
+            "acerca": "Este curso de Php - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Php - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-22",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Php - Intermedio",
+        "subtitulo": "Introducción a Php - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Programacion",
+        "detalles": {
+            "acerca": "Este curso de Php - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Php - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-23",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Programacion C# -  Basico",
+        "subtitulo": "Introducción a  Programacion C# -  Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Programacion",
+        "detalles": {
+            "acerca": "Este curso de  Programacion C# -  Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de  Programacion C# -  Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-24",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Programacion C# -  Intermedio",
+        "subtitulo": "Introducción a  Programacion C# -  Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Programacion",
+        "detalles": {
+            "acerca": "Este curso de  Programacion C# -  Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de  Programacion C# -  Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-25",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Java - Basico",
+        "subtitulo": "Introducción a  Java - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Programacion",
+        "detalles": {
+            "acerca": "Este curso de  Java - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Programación orientada a objetos",
+                "Desarrollo de aplicaciones",
+                "Manejo de excepciones"
+            ],
+            "temario": [
+                "Fundamentos de  Java - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-26",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Java - Intermedio",
+        "subtitulo": "Introducción a  Java - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Programacion",
+        "detalles": {
+            "acerca": "Este curso de  Java - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Programación orientada a objetos",
+                "Desarrollo de aplicaciones",
+                "Manejo de excepciones"
+            ],
+            "temario": [
+                "Fundamentos de  Java - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-27",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Android  - Basico",
+        "subtitulo": "Introducción a Android  - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Programacion",
+        "detalles": {
+            "acerca": "Este curso de Android  - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Android  - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-28",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Android - Intermedio",
+        "subtitulo": "Introducción a  Android - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Programacion",
+        "detalles": {
+            "acerca": "Este curso de  Android - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de  Android - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-29",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Python - Basico",
+        "subtitulo": "Introducción a Python - Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de Python - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Sintaxis y estructuras de datos",
+                "Automatización de tareas",
+                "Desarrollo de aplicaciones"
+            ],
+            "temario": [
+                "Fundamentos de Python - Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-30",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Python - Intermedio",
+        "subtitulo": "Introducción a  Python - Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de  Python - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Sintaxis y estructuras de datos",
+                "Automatización de tareas",
+                "Desarrollo de aplicaciones"
+            ],
+            "temario": [
+                "Fundamentos de  Python - Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-31",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Marketing Digital",
+        "subtitulo": "Introducción a Marketing Digital",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de Marketing Digital está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Estrategias de marketing digital",
+                "SEO y SEM",
+                "Gestión de redes sociales"
+            ],
+            "temario": [
+                "Fundamentos de Marketing Digital",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-32",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Gestion Redes Sociales",
+        "subtitulo": "Introducción a  Gestion Redes Sociales",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de  Gestion Redes Sociales está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de  Gestion Redes Sociales",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-33",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Power Bi Basico",
+        "subtitulo": "Introducción a  Power Bi Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de  Power Bi Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de  Power Bi Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-34",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": " Power Bi Intermedio",
+        "subtitulo": "Introducción a  Power Bi Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de  Power Bi Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de  Power Bi Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-35",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Autocad Basico",
+        "subtitulo": "Introducción a   Autocad Basico",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de   Autocad Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de   Autocad Basico",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-36",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Autocad Intermedio",
+        "subtitulo": "Introducción a   Autocad Intermedio",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de   Autocad Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de   Autocad Intermedio",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-37",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "ITIL",
+        "subtitulo": "Introducción a ITIL",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de ITIL está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de ITIL",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-38",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Cyberseguridad",
+        "subtitulo": "Introducción a Cyberseguridad",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de Cyberseguridad está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Cyberseguridad",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-39",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Scrum",
+        "subtitulo": "Introducción a Scrum",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de Scrum está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Scrum",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-40",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Gestion De Proyectos I",
+        "subtitulo": "Introducción a Gestion De Proyectos I",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de Gestion De Proyectos I está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Gestion De Proyectos I",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-41",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Office 365",
+        "subtitulo": "Introducción a Office 365",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de Office 365 está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Office 365",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    },
+    {
+        "id": "curso-42",
+        "imagen": "../src/assets/Course/online/",
+        "nombre": "Azure",
+        "subtitulo": "Introducción a Azure",
+        "fecha_inicio": "30 de marzo",
+        "modalidad": "En vivo",
+        "semanas": "5 semanas",
+        "horas": "10 horas",
+        "precio": 250,
+        "estado": "Cupos Libres",
+        "categoria": "Tecnologicos",
+        "detalles": {
+            "acerca": "Este curso de Azure está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "docente": {
+                "nombre": "Por asignar",
+                "imagen": "../src/assets/Course/teachers/default.png"
+            },
+            "dirigido": [
+                "Estudiantes",
+                "Profesionales",
+                "Interesados en el tema"
+            ],
+            "habilidades": [
+                "Conocimientos básicos y avanzados del tema",
+                "Aplicaciones prácticas",
+                "Casos de estudio"
+            ],
+            "temario": [
+                "Fundamentos de Azure",
+                "Conceptos clave y aplicaciones",
+                "Herramientas y mejores prácticas",
+                "Ejercicios y casos prácticos",
+                "Proyecto final",
+                "Evaluación final"
+            ]
+        }
+    }
+]
