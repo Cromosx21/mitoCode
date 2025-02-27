@@ -7,7 +7,7 @@ export const CourseProvider = ({ children }) => {
 	const [searchTerm, setSearchTerm] = useState("");
 
 	useEffect(() => {
-		fetch("/src/context/cursos.json")
+		fetch("/src/context/cursos_corregidos.json")
 			.then((response) => response.json())
 			.then((data) => setCourses(data))
 			.catch((error) =>

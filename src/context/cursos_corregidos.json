@@ -1,7 +1,7 @@
 [
     {
         "id": "curso-1",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Windows 11",
         "subtitulo": "Introducción a Windows 11",
         "fecha_inicio": "30 de marzo",
@@ -39,7 +39,7 @@
     },
     {
         "id": "curso-2",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Word 2021 - Basico",
         "subtitulo": "Introducción a Word 2021 - Basico",
         "fecha_inicio": "30 de marzo",
@@ -77,7 +77,7 @@
     },
     {
         "id": "curso-3",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Word 2021  - Intermedio",
         "subtitulo": "Introducción a Word 2021  - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -115,7 +115,7 @@
     },
     {
         "id": "curso-4",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Excel 2021 - Basico",
         "subtitulo": "Introducción a Excel 2021 - Basico",
         "fecha_inicio": "30 de marzo",
@@ -153,7 +153,7 @@
     },
     {
         "id": "curso-5",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Excel 2021 - Intermedio",
         "subtitulo": "Introducción a Excel 2021 - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -191,7 +191,7 @@
     },
     {
         "id": "curso-6",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Excel 2021 - Avanzado",
         "subtitulo": "Introducción a Excel 2021 - Avanzado",
         "fecha_inicio": "30 de marzo",
@@ -229,7 +229,7 @@
     },
     {
         "id": "curso-7",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Power Point - Basico",
         "subtitulo": "Introducción a Power Point - Basico",
         "fecha_inicio": "30 de marzo",
@@ -267,7 +267,7 @@
     },
     {
         "id": "curso-8",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Power Point - Intermedio",
         "subtitulo": "Introducción a Power Point - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -305,7 +305,7 @@
     },
     {
         "id": "curso-9",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Diseño Web I",
         "subtitulo": "Introducción a Diseño Web I",
         "fecha_inicio": "30 de marzo",
@@ -343,7 +343,7 @@
     },
     {
         "id": "curso-10",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Diseño Web II",
         "subtitulo": "Introducción a Diseño Web Ii",
         "fecha_inicio": "30 de marzo",
@@ -381,7 +381,7 @@
     },
     {
         "id": "curso-11",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Corel Draw - Basico",
         "subtitulo": "Introducción a Corel Draw - Basico",
         "fecha_inicio": "30 de marzo",
@@ -419,7 +419,7 @@
     },
     {
         "id": "curso-12",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Corel Draw - Intermedio",
         "subtitulo": "Introducción a Corel Draw - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -457,7 +457,7 @@
     },
     {
         "id": "curso-13",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Ilustrator - Basico",
         "subtitulo": "Introducción a Ilustrator - Basico",
         "fecha_inicio": "30 de marzo",
@@ -495,7 +495,7 @@
     },
     {
         "id": "curso-14",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Ilustrator - Intermedio",
         "subtitulo": "Introducción a  Ilustrator - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -533,7 +533,7 @@
     },
     {
         "id": "curso-15",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Photoshop - Basico",
         "subtitulo": "Introducción a Photoshop - Basico",
         "fecha_inicio": "30 de marzo",
@@ -571,7 +571,7 @@
     },
     {
         "id": "curso-16",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Photoshop - Intermedio",
         "subtitulo": "Introducción a  Photoshop - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -609,7 +609,7 @@
     },
     {
         "id": "curso-17",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Sql 2021 -  Basico",
         "subtitulo": "Introducción a  Sql 2021 -  Basico",
         "fecha_inicio": "30 de marzo",
@@ -647,7 +647,7 @@
     },
     {
         "id": "curso-18",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Sql 2021 - Intermedio",
         "subtitulo": "Introducción a  Sql 2021 - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -685,7 +685,7 @@
     },
     {
         "id": "curso-19",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Mysql 2021 - Basico",
         "subtitulo": "Introducción a Mysql 2021 - Basico",
         "fecha_inicio": "30 de marzo",
@@ -723,7 +723,7 @@
     },
     {
         "id": "curso-20",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Mysql 2021 - Intermedio",
         "subtitulo": "Introducción a  Mysql 2021 - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -761,7 +761,7 @@
     },
     {
         "id": "curso-21",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Php - Basico",
         "subtitulo": "Introducción a Php - Basico",
         "fecha_inicio": "30 de marzo",
@@ -799,7 +799,7 @@
     },
     {
         "id": "curso-22",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Php - Intermedio",
         "subtitulo": "Introducción a Php - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -837,7 +837,7 @@
     },
     {
         "id": "curso-23",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Programacion C# -  Basico",
         "subtitulo": "Introducción a  Programacion C# -  Basico",
         "fecha_inicio": "30 de marzo",
@@ -875,7 +875,7 @@
     },
     {
         "id": "curso-24",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Programacion C# -  Intermedio",
         "subtitulo": "Introducción a  Programacion C# -  Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -913,7 +913,7 @@
     },
     {
         "id": "curso-25",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Java - Basico",
         "subtitulo": "Introducción a  Java - Basico",
         "fecha_inicio": "30 de marzo",
@@ -951,7 +951,7 @@
     },
     {
         "id": "curso-26",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Java - Intermedio",
         "subtitulo": "Introducción a  Java - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -989,7 +989,7 @@
     },
     {
         "id": "curso-27",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Android  - Basico",
         "subtitulo": "Introducción a Android  - Basico",
         "fecha_inicio": "30 de marzo",
@@ -1027,7 +1027,7 @@
     },
     {
         "id": "curso-28",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Android - Intermedio",
         "subtitulo": "Introducción a  Android - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -1065,7 +1065,7 @@
     },
     {
         "id": "curso-29",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Python - Basico",
         "subtitulo": "Introducción a Python - Basico",
         "fecha_inicio": "30 de marzo",
@@ -1103,7 +1103,7 @@
     },
     {
         "id": "curso-30",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Python - Intermedio",
         "subtitulo": "Introducción a  Python - Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -1141,7 +1141,7 @@
     },
     {
         "id": "curso-31",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Marketing Digital",
         "subtitulo": "Introducción a Marketing Digital",
         "fecha_inicio": "30 de marzo",
@@ -1179,7 +1179,7 @@
     },
     {
         "id": "curso-32",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Gestion Redes Sociales",
         "subtitulo": "Introducción a  Gestion Redes Sociales",
         "fecha_inicio": "30 de marzo",
@@ -1217,7 +1217,7 @@
     },
     {
         "id": "curso-33",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Power Bi Basico",
         "subtitulo": "Introducción a  Power Bi Basico",
         "fecha_inicio": "30 de marzo",
@@ -1255,7 +1255,7 @@
     },
     {
         "id": "curso-34",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": " Power Bi Intermedio",
         "subtitulo": "Introducción a  Power Bi Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -1293,7 +1293,7 @@
     },
     {
         "id": "curso-35",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Autocad Basico",
         "subtitulo": "Introducción a   Autocad Basico",
         "fecha_inicio": "30 de marzo",
@@ -1331,7 +1331,7 @@
     },
     {
         "id": "curso-36",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Autocad Intermedio",
         "subtitulo": "Introducción a   Autocad Intermedio",
         "fecha_inicio": "30 de marzo",
@@ -1369,7 +1369,7 @@
     },
     {
         "id": "curso-37",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "ITIL",
         "subtitulo": "Introducción a ITIL",
         "fecha_inicio": "30 de marzo",
@@ -1407,7 +1407,7 @@
     },
     {
         "id": "curso-38",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Cyberseguridad",
         "subtitulo": "Introducción a Cyberseguridad",
         "fecha_inicio": "30 de marzo",
@@ -1445,7 +1445,7 @@
     },
     {
         "id": "curso-39",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Scrum",
         "subtitulo": "Introducción a Scrum",
         "fecha_inicio": "30 de marzo",
@@ -1483,7 +1483,7 @@
     },
     {
         "id": "curso-40",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Gestion De Proyectos I",
         "subtitulo": "Introducción a Gestion De Proyectos I",
         "fecha_inicio": "30 de marzo",
@@ -1521,7 +1521,7 @@
     },
     {
         "id": "curso-41",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Office 365",
         "subtitulo": "Introducción a Office 365",
         "fecha_inicio": "30 de marzo",
@@ -1559,7 +1559,7 @@
     },
     {
         "id": "curso-42",
-        "imagen": "../src/assets/Course/online/",
+        "imagen": "../src/assets/Course/online/imagen.jpg",
         "nombre": "Azure",
         "subtitulo": "Introducción a Azure",
         "fecha_inicio": "30 de marzo",

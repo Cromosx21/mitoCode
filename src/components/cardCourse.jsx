@@ -33,7 +33,7 @@ export default function CardCourse({ imgCourse, id, nameCourse, subtitulo, dateI
 						<div className="flex flex-col gap-2">
 							<div className="flex flex-row flex-wrap justify-between text-sm font-medium gap-2">
 								{dateInit !== "No disponible" ? (
-									<p>{dateInit}</p>
+									<p>Inicio: {dateInit}</p>
 								) : null}
 								<div className="flex flex-row gap-1 items-center min-w-24 justify-end ">
 									{mode !== "En vivo" ? (
@@ -75,7 +75,7 @@ export default function CardCourse({ imgCourse, id, nameCourse, subtitulo, dateI
 						<div className="flex flex-row justify-between flex-wrap pb-6 gap-2">
 							<div className="text-xl font-bold">
 								<span>PEN </span>
-								S/{price}
+								S/ {price}
 							</div>
 							<div
 								className={`py-1 px-3 rounded-sm font-semibold ${
