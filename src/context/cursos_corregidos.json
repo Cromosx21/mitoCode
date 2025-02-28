@@ -10,7 +10,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Ofimatica",
+        "categoria": "Ofimática",
         "detalles": {
             "acerca": "Este curso de Windows 11 está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -48,7 +48,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Ofimatica",
+        "categoria": "Ofimática",
         "detalles": {
             "acerca": "Este curso de Word 2021 - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -86,7 +86,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Ofimatica",
+        "categoria": "Ofimática",
         "detalles": {
             "acerca": "Este curso de Word 2021  - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -124,7 +124,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Ofimatica",
+        "categoria": "Ofimática",
         "detalles": {
             "acerca": "Este curso de Excel 2021 - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -162,7 +162,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Ofimatica",
+        "categoria": "Ofimática",
         "detalles": {
             "acerca": "Este curso de Excel 2021 - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -200,7 +200,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Ofimatica",
+        "categoria": "Ofimática",
         "detalles": {
             "acerca": "Este curso de Excel 2021 - Avanzado está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -238,7 +238,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Ofimatica",
+        "categoria": "Ofimática",
         "detalles": {
             "acerca": "Este curso de Power Point - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -276,7 +276,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Ofimatica",
+        "categoria": "Ofimática",
         "detalles": {
             "acerca": "Este curso de Power Point - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -390,7 +390,7 @@
         "horas": "10 horas",
         "precio": 200,
         "estado": "Cupos Libres",
-        "categoria": "Diseño Grafico",
+        "categoria": "Diseño Gráfico",
         "detalles": {
             "acerca": "Este curso de Corel Draw - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -428,7 +428,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Diseño Grafico",
+        "categoria": "Diseño Gráfico",
         "detalles": {
             "acerca": "Este curso de Corel Draw - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -466,7 +466,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Diseño Grafico",
+        "categoria": "Diseño Gráfico",
         "detalles": {
             "acerca": "Este curso de Ilustrator - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -504,7 +504,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Diseño Grafico",
+        "categoria": "Diseño Gráfico",
         "detalles": {
             "acerca": "Este curso de  Ilustrator - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -542,7 +542,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Diseño Grafico",
+        "categoria": "Diseño Gráfico",
         "detalles": {
             "acerca": "Este curso de Photoshop - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -580,7 +580,7 @@
         "horas": "10 horas",
         "precio": 150,
         "estado": "Cupos Libres",
-        "categoria": "Diseño Grafico",
+        "categoria": "Diseño Gráfico",
         "detalles": {
             "acerca": "Este curso de  Photoshop - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -618,7 +618,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Base Datos",
+        "categoria": "Base de Datos",
         "detalles": {
             "acerca": "Este curso de  Sql 2021 -  Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -656,7 +656,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Base Datos",
+        "categoria": "Base de Datos",
         "detalles": {
             "acerca": "Este curso de  Sql 2021 - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -694,7 +694,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Base Datos",
+        "categoria": "Base de Datos",
         "detalles": {
             "acerca": "Este curso de Mysql 2021 - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -732,7 +732,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Base Datos",
+        "categoria": "Base de Datos",
         "detalles": {
             "acerca": "Este curso de  Mysql 2021 - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -770,7 +770,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Programacion",
+        "categoria": "Programación",
         "detalles": {
             "acerca": "Este curso de Php - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -808,7 +808,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Programacion",
+        "categoria": "Programación",
         "detalles": {
             "acerca": "Este curso de Php - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -838,17 +838,17 @@
     {
         "id": "curso-23",
         "imagen": "../src/assets/Course/online/imagen.jpg",
-        "nombre": " Programacion C# -  Basico",
-        "subtitulo": "Introducción a  Programacion C# -  Basico",
+        "nombre": " Programación C# -  Basico",
+        "subtitulo": "Introducción a  Programación C# -  Basico",
         "fecha_inicio": "30 de marzo",
         "modalidad": "En vivo",
         "semanas": "5 semanas",
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Programacion",
+        "categoria": "Programación",
         "detalles": {
-            "acerca": "Este curso de  Programacion C# -  Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "acerca": "Este curso de  Programación C# -  Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
                 "nombre": "Por asignar",
                 "imagen": "../src/assets/Course/teachers/default.png"
@@ -864,7 +864,7 @@
                 "Casos de estudio"
             ],
             "temario": [
-                "Fundamentos de  Programacion C# -  Basico",
+                "Fundamentos de  Programación C# -  Basico",
                 "Conceptos clave y aplicaciones",
                 "Herramientas y mejores prácticas",
                 "Ejercicios y casos prácticos",
@@ -876,17 +876,17 @@
     {
         "id": "curso-24",
         "imagen": "../src/assets/Course/online/imagen.jpg",
-        "nombre": " Programacion C# -  Intermedio",
-        "subtitulo": "Introducción a  Programacion C# -  Intermedio",
+        "nombre": " Programación C# -  Intermedio",
+        "subtitulo": "Introducción a  Programación C# -  Intermedio",
         "fecha_inicio": "30 de marzo",
         "modalidad": "En vivo",
         "semanas": "5 semanas",
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Programacion",
+        "categoria": "Programación",
         "detalles": {
-            "acerca": "Este curso de  Programacion C# -  Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
+            "acerca": "Este curso de  Programación C# -  Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
                 "nombre": "Por asignar",
                 "imagen": "../src/assets/Course/teachers/default.png"
@@ -902,7 +902,7 @@
                 "Casos de estudio"
             ],
             "temario": [
-                "Fundamentos de  Programacion C# -  Intermedio",
+                "Fundamentos de  Programación C# -  Intermedio",
                 "Conceptos clave y aplicaciones",
                 "Herramientas y mejores prácticas",
                 "Ejercicios y casos prácticos",
@@ -922,7 +922,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Programacion",
+        "categoria": "Programación",
         "detalles": {
             "acerca": "Este curso de  Java - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -960,7 +960,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Programacion",
+        "categoria": "Programación",
         "detalles": {
             "acerca": "Este curso de  Java - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -998,7 +998,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Programacion",
+        "categoria": "Programación",
         "detalles": {
             "acerca": "Este curso de Android  - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1036,7 +1036,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Programacion",
+        "categoria": "Programación",
         "detalles": {
             "acerca": "Este curso de  Android - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1074,7 +1074,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de Python - Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1112,7 +1112,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de  Python - Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1150,7 +1150,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de Marketing Digital está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1188,7 +1188,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de  Gestion Redes Sociales está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1226,7 +1226,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de  Power Bi Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1264,7 +1264,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de  Power Bi Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1302,7 +1302,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de   Autocad Basico está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1340,7 +1340,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de   Autocad Intermedio está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1378,7 +1378,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de ITIL está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1416,7 +1416,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de Cyberseguridad está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1454,7 +1454,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de Scrum está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1492,7 +1492,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de Gestion De Proyectos I está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1530,7 +1530,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de Office 365 está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {
@@ -1568,7 +1568,7 @@
         "horas": "10 horas",
         "precio": 250,
         "estado": "Cupos Libres",
-        "categoria": "Tecnologicos",
+        "categoria": "Tecnologías",
         "detalles": {
             "acerca": "Este curso de Azure está diseñado para brindarte los conocimientos necesarios sobre el tema de manera práctica y efectiva.",
             "docente": {

@@ -16,7 +16,7 @@ export default function Footer() {
 									href="https://wa.me/51987654321"
 									className="cursor-pointer hover:text-sky-400"
 								>
-									+51 987 654 321
+									+51 912 258 843
 								</a>
 							</span>
 						</li>
@@ -27,7 +27,7 @@ export default function Footer() {
 									href="mailto:cursos@mitocodenetwork.com"
 									className="cursor-pointer hover:text-sky-400"
 								>
-									cursos@mitocodenetwork.com
+									istpmetawill@gmail.com
 								</a>
 							</span>
 						</li>
@@ -133,8 +133,8 @@ export default function Footer() {
 				</div>
 			</div>
 			<p className="text-xs text-gray-200 text-center">
-				MitoCode. Todos los derechos reservados. Diseñado e implementado
-				Enova Agency
+				MetaWill. Todos los derechos reservados. Diseñado e implementado
+				MetaWill
 			</p>
 		</footer>
 	);

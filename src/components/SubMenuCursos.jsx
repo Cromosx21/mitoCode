@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import AnchorSubMenu from "./AnchorSubMenu";
 
-export default function SubMenuCursos() {
+export default function SubMenuCursos({ closeSubMenu }) {
 	const [selectedCategory, setSelectedCategory] = useState("online");
 
 	return (
@@ -51,14 +51,14 @@ export default function SubMenuCursos() {
 			<div className=" p-4 bg-gray-50 w-full">
 				{selectedCategory === "online" ? (
 					<ul>
-						<AnchorSubMenu icon="fa-sticky-note" nameModule="Ofimática" />
-						<AnchorSubMenu icon="fa-palette" nameModule="Diseño Gráfico" />
-						<AnchorSubMenu icon="fa-laptop" nameModule="Diseño Web" />
-						<AnchorSubMenu icon="fa-code" nameModule="Programación" />
-						<AnchorSubMenu icon="fa-database" nameModule="Base de Datos" />
-						<AnchorSubMenu icon="fa-rocket" nameModule="Tecnologías 2030" />
-						<AnchorSubMenu icon="fa-globe" nameModule="Cursos Internacionales" />
-						<AnchorSubMenu icon="fa-language" nameModule="Idiomas" />
+						<AnchorSubMenu icon="fa-sticky-note" nameModule="Ofimática" closeSubMenu={closeSubMenu}/>
+						<AnchorSubMenu icon="fa-palette" nameModule="Diseño Gráfico" closeSubMenu={closeSubMenu}/>
+						<AnchorSubMenu icon="fa-laptop" nameModule="Diseño Web" closeSubMenu={closeSubMenu}/>
+						<AnchorSubMenu icon="fa-code" nameModule="Programación" closeSubMenu={closeSubMenu}/>
+						<AnchorSubMenu icon="fa-database" nameModule="Base de Datos" closeSubMenu={closeSubMenu}/>
+						<AnchorSubMenu icon="fa-rocket" nameModule="Tecnologías" closeSubMenu={closeSubMenu}/>
+						<AnchorSubMenu icon="fa-globe" nameModule="Cursos Internacionales" closeSubMenu={closeSubMenu}/>
+						<AnchorSubMenu icon="fa-language" nameModule="Idiomas" closeSubMenu={closeSubMenu}/>
 					</ul>
 				) : (
 					<>

@@ -9,7 +9,6 @@ import {
 	faAngleDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import AnchorIco from "../components/AnchorIco";
 import MenuMobile from "./MenuMobile";
 import SubMenuCursos from "../components/SubMenuCursos";
 
@@ -67,7 +66,13 @@ export default function Navbar() {
 										}`}
 									/>
 								</button>
-								{isSubMenuOpen && <SubMenuCursos />}
+								{isSubMenuOpen && (
+									<SubMenuCursos
+										closeSubMenu={() =>
+											setIsSubMenuOpen(false)
+										}
+									/>
+								)}
 							</div>
 
 							<Anchor
