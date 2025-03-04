@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { CourseContext } from "../context/CourseContext";
 import CardCourse from "../components/cardCourse";
+import { useNavigate } from "react-router-dom";
 
 // Importación de Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,6 +11,12 @@ import "swiper/css/effect-coverflow";
 
 export default function Courses() {
 	const { courses, searchTerm } = useContext(CourseContext);
+	const navigate = useNavigate();
+
+	const handleClick = () => {
+		// closeSubMenu();
+		navigate(`/search/cursos`);
+	};
 
 	const filteredCourses = courses.filter((course) =>
 		course.nombre.toLowerCase().includes(searchTerm.toLowerCase())
@@ -78,6 +85,7 @@ export default function Courses() {
 					<button
 						type="button"
 						className="py-2 px-4 w-fit bg-blue-900 text-gray-50 font-medium text-sm rounded-lg cursor-pointer hover:bg-blue-800  duration-500 ease-in-out hover:-translate-y-1 transition-all hover:shadow-xl mx-auto"
+						onClick={handleClick}
 					>
 						Ver más cursos
 					</button>
