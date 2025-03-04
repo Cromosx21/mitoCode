@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useContext } from "react";
 import { CourseContext } from "../context/CourseContext";
+import { useNavigate } from "react-router-dom";
 import Logo from "../components/Logo";
 import Anchor from "../components/Anchor";
 import {
@@ -27,6 +28,8 @@ export default function Navbar() {
 		window.addEventListener("resize", handleResize);
 		return () => window.removeEventListener("resize", handleResize);
 	}, []);
+
+	const navigate = useNavigate();
 
 	return (
 		<>
@@ -102,6 +105,13 @@ export default function Navbar() {
 								<FontAwesomeIcon icon={faSearch} />
 							</button>
 						</form>
+						<span className="w-0.5 h-6 bg-gray-300 block mx-2"></span>
+						<button
+							className="leading-14 text-sky-900 font-semibold text-sm tracking-wide hover:text-sky-400 transition-colors duration-500 ease-in-out cursor-pointer"
+							onClick={() => navigate("/sesion/login")}
+						>
+							Iniciar sesión
+						</button>
 					</div>
 				</div>
 			</nav>
