@@ -21,6 +21,13 @@ export default function Courses() {
 	const filteredCourses = courses.filter((course) =>
 		course.nombre.toLowerCase().includes(searchTerm.toLowerCase())
 	);
+	const formatDate = (dateString) => {
+		const date = new Date(dateString);
+		return date.toLocaleDateString("es-ES", {
+			day: "numeric",
+			month: "long",
+		});
+	};
 
 	return (
 		<>
@@ -63,7 +70,7 @@ export default function Courses() {
 										imgCourse={course.imagen}
 										nameCourse={course.nombre}
 										subtitulo={course.subtitulo}
-										dateInit={course.fecha_inicio}
+										dateInit={formatDate(course.fecha_inicio) }
 										mode={course.modalidad}
 										weeks={
 											course.modalidad === "En vivo"

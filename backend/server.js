@@ -5,6 +5,7 @@ import db from "./config/db.js";
 import courseRoutes from "./routes/courseRoutes.js";
 
 dotenv.config();
+
 const app = express();
 app.use(cors());
 app.use(express.json());

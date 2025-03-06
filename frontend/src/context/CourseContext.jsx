@@ -1,4 +1,5 @@
 import { createContext, useState, useEffect } from "react";
+import { getCourses } from "../services/courseServices";
 
 export const CourseContext = createContext();
 
@@ -6,13 +7,13 @@ export const CourseProvider = ({ children }) => {
 	const [courses, setCourses] = useState([]);
 	const [searchTerm, setSearchTerm] = useState("");
 
+	// Obtener cursos desde la API cuando se monte el contexto
 	useEffect(() => {
-		fetch("/src/context/cursos_corregidos.json")
-			.then((response) => response.json())
-			.then((data) => setCourses(data))
-			.catch((error) =>
-				console.log("Error al cargar los cursos:", error)
-			);
+		const fetchCourses = async () => {
+			const data = await getCourses();
+			setCourses(data);
+		};
+		fetchCourses();
 	}, []);
 
 	return (

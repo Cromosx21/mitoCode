@@ -5,6 +5,14 @@ import CardCourse from "../components/cardCourse";
 export default function AllCourses() {
 	const { courses } = useContext(CourseContext);
 
+	const formatDate = (dateString) => {
+		const date = new Date(dateString);
+		return date.toLocaleDateString("es-ES", {
+			day: "numeric",
+			month: "long",
+		});
+	};
+
     return (
 		<>
 			<section className="w-full bg-gray-50 py-10 px-6">
@@ -21,7 +29,7 @@ export default function AllCourses() {
 										imgCourse={course.imagen}
 										nameCourse={course.nombre}
 										subtitulo={course.subtitulo}
-										dateInit={course.fecha_inicio}
+										dateInit={formatDate(course.fecha_inicio)}
 										mode={course.modalidad}
 										weeks={
 											course.modalidad === "En vivo"

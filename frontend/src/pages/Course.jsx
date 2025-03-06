@@ -6,6 +6,7 @@ import About from "../layouts/courses/About";
 import Learning from "../layouts/courses/Learning";
 import Program from "../layouts/courses/program";
 import MethodPay from "../layouts/courses/methodPay";
+import { getCourses } from "../services/courseServices";
 
 export default function Course() {
 	const { id } = useParams(); // Captura el ID desde la URL
@@ -13,21 +14,44 @@ export default function Course() {
 	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
-		fetch("/src/context/cursos_corregidos.json")
-			.then((response) => response.json())
-			.then((data) => {
-				const selectedCourse = data.find((course) => course.id === id);
-				setCourse(selectedCourse);
+		const fetchCourse = async () => {
+			try {
+				const data = await getCourses();
+				const selectedCourse = data.find((course) => course.id.toString() === id);
+				
+				if(selectedCourse){
+					setCourse(selectedCourse);
+				} else {
+					console.error("Curso no encontrado.");
+				}
+
+
+			} catch (error) {
+				console.error("Error al cargar los curso:", error);
 				setLoading(false);
-			})
-			.catch((error) => {
-				console.log("Error al cargar el curso:", error);
+			} finally {
 				setLoading(false);
-			});
+			}
+		};
+
+		fetchCourse();
 	}, [id]);
 
-	if (loading) return <p>Cargando...</p>;
-	if (!course) return <p>Curso no encontrado</p>;
+	if (loading) return <p className="text-center py-10 text-lg font-bold">Cargando...</p>;
+	if (!course) return (
+		<p className="text-center py-10 text-lg font-bold text-red-500">
+			Curso no encontrado
+		</p>
+	);
+
+	const formatDate = (dateString) => {
+		const date = new Date(dateString);
+		return date.toLocaleDateString("es-ES", {
+			day: "numeric",
+			month: "long",
+		});
+	};
+
 
 	return (
 		<>
@@ -50,7 +74,7 @@ export default function Course() {
 									<span>
 										Inicio:{" "}
 										<span className="font-semibold">
-											{course.fecha_inicio}
+											{formatDate(course.fecha_inicio)}
 										</span>
 									</span>
 								</li>
