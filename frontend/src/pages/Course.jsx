@@ -7,6 +7,7 @@ import Learning from "../layouts/courses/Learning";
 import Program from "../layouts/courses/program";
 import MethodPay from "../layouts/courses/methodPay";
 import { getCourses } from "../services/courseServices";
+import Question from "../layouts/courses/Question";
 
 export default function Course() {
 	const { id } = useParams(); // Captura el ID desde la URL
@@ -149,6 +150,7 @@ export default function Course() {
 					temario={ course.detalles.temario}
 				/>
 				<MethodPay />
+				<Question />
 			</main>
 			<Footer></Footer>
 		</>
