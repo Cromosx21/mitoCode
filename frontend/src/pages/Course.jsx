@@ -8,6 +8,8 @@ import Program from "../layouts/courses/program";
 import MethodPay from "../layouts/courses/methodPay";
 import { getCourses } from "../services/courseServices";
 import Question from "../layouts/courses/Question";
+import Contac from "../layouts/courses/Contac";
+import Hours from "../layouts/courses/Hours";
 
 export default function Course() {
 	const { id } = useParams(); // Captura el ID desde la URL
@@ -146,11 +148,13 @@ export default function Course() {
 					dirigido={course.detalles.dirigido}
 					habilidades={course.detalles.habilidades}
 				/>
-				<Program
-					temario={ course.detalles.temario}
+				<Program temario={course.detalles.temario} />
+				<Hours
+					inicio={formatDate(course.fecha_inicio)}
 				/>
-				<MethodPay />
+				<MethodPay pagos={course.precio} />
 				<Question />
+				<Contac />
 			</main>
 			<Footer></Footer>
 		</>

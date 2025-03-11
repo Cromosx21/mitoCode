@@ -9,7 +9,7 @@ export default function Hero() {
                         <h1 className="font-bold text-4xl tracking-tighter text-gray-50 uppercase">Aprende tecnologías de alta demanda laboral</h1>
                         <p className=" font-light text-base text-gray-900">Nos dedicamos que crezcas profesionalmente y puedas aplicarlo en tu vida</p>
                     </div>
-                    <button type="button" className="py-2 px-4 w-fit bg-blue-900 text-gray-50 text-lg font-semibold rounded-full cursor-pointer hover:bg-blue-800  duration-500 ease-in-out hover:-translate-y-1 transition-all hover:shadow-xl" >
+                    <button type="button" className="py-2 px-4 w-fit bg-blue-900 text-gray-50 text-lg font-semibold rounded-full cursor-pointer hover:bg-blue-800  duration-500 ease-in-out hover:-translate-y-1 transition-all hover:shadow-xl" onClick={() => { window.location.href = "/search/cursos" }} >
                         !Comienza ahora!
                     </button>
                 </div>
