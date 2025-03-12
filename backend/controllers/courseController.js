@@ -4,17 +4,19 @@ export const getCourses = async (req, res) => {
 	try {
 		const [rows] = await db.query(`
             SELECT 
-                c.id, c.imagen, c.nombre, c.subtitulo, c.fecha_inicio, 
-                c.modalidad, c.semanas, c.horas, c.precio, c.estado, 
-                c.categoria, d.acerca, 
-                doc.nombre AS docente_nombre, doc.imagen AS docente_imagen, 
-                t.tema AS temario, h.habilidad, p.publico AS dirigido
-            FROM Cursos c
-            LEFT JOIN DetallesCurso d ON c.id = d.id_curso
-            LEFT JOIN Docentes doc ON d.id_docente = doc.id
-            LEFT JOIN Temarios t ON c.id = t.id_curso
-            LEFT JOIN Habilidades h ON c.id = h.id_curso
-            LEFT JOIN PublicoObjetivo p ON c.id = p.id_curso;
+                c_idcurso AS id, 
+                c_nombre AS nombre, 
+                c_subtitulo AS subtitulo, 
+                c_imagen AS imagen, 
+                c_modalidad AS modalidad, 
+                c_duracion AS duracion, 
+                c_horas AS horas,
+                c_fechainicio AS fecha_inicio, 
+                c_categoria AS categoria, 
+                c_precio AS precio, 
+                c_estado AS estado, 
+                c_descripcion AS descripcion
+				FROM T_Cursos
         `);
 
 		// Estructurar los datos para eliminar duplicados
@@ -24,50 +26,20 @@ export const getCourses = async (req, res) => {
 			if (!cursosMap[row.id]) {
 				cursosMap[row.id] = {
 					id: row.id,
-					imagen: row.imagen,
 					nombre: row.nombre,
 					subtitulo: row.subtitulo,
-					fecha_inicio: row.fecha_inicio,
+					imagen: row.imagen,
 					modalidad: row.modalidad,
-					semanas: row.semanas,
+					duracion: row.duracion,
 					horas: row.horas,
+					fecha_inicio: row.fecha_inicio,
+					categoria: row.categoria,
 					precio: row.precio,
 					estado: row.estado,
-					categoria: row.categoria,
-					detalles: {
-						acerca: row.acerca,
-						docente: {
-							nombre: row.docente_nombre || "Por asignar",
-							imagen:
-								row.docente_imagen ||
-								"../src/assets/Course/teachers/default.png",
-						},
-						dirigido: [],
-						habilidades: [],
-						temario: [],
-					},
+					descripcion: row.descripcion,
 				};
 			}
 
-			// Agregar datos a los arrays evitando duplicados
-			if (
-				row.dirigido &&
-				!cursosMap[row.id].detalles.dirigido.includes(row.dirigido)
-			) {
-				cursosMap[row.id].detalles.dirigido.push(row.dirigido);
-			}
-			if (
-				row.habilidad &&
-				!cursosMap[row.id].detalles.habilidades.includes(row.habilidad)
-			) {
-				cursosMap[row.id].detalles.habilidades.push(row.habilidad);
-			}
-			if (
-				row.temario &&
-				!cursosMap[row.id].detalles.temario.includes(row.temario)
-			) {
-				cursosMap[row.id].detalles.temario.push(row.temario);
-			}
 		});
 
 		// Convertir el objeto en un array de cursos
