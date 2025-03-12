@@ -29,14 +29,16 @@ export default function AllCourses() {
 										imgCourse={course.imagen}
 										nameCourse={course.nombre}
 										subtitulo={course.subtitulo}
-										dateInit={formatDate(course.fecha_inicio)}
+										dateInit={formatDate(
+											course.fecha_inicio
+										)}
 										mode={course.modalidad}
 										weeks={
 											course.modalidad === "En vivo"
-												? course.semanas
+												? `${course.duracion} semanas`
 												: ""
 										}
-										hours={course.horas}
+										hours={`${course.horas} horas`}
 										price={course.precio}
 										status={course.estado}
 									/>

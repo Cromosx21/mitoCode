@@ -36,9 +36,7 @@ export default function Courses() {
 					<h2 className="text-3xl font-bold text-gray-50">
 						Nuestros Cursos
 					</h2>
-					<div>
-						
-					</div>
+					<div></div>
 					<Swiper
 						modules={[Autoplay, EffectCoverflow]}
 						spaceBetween={30}
@@ -70,14 +68,16 @@ export default function Courses() {
 										imgCourse={course.imagen}
 										nameCourse={course.nombre}
 										subtitulo={course.subtitulo}
-										dateInit={formatDate(course.fecha_inicio) }
+										dateInit={formatDate(
+											course.fecha_inicio
+										)}
 										mode={course.modalidad}
 										weeks={
 											course.modalidad === "En vivo"
-												? course.semanas
+												? `${course.duracion} semanas`
 												: ""
 										}
-										hours={course.horas}
+										hours={`${course.horas} horas`}
 										price={course.precio}
 										status={course.estado}
 									/>
