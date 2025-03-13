@@ -6,10 +6,11 @@ import About from "../layouts/courses/About";
 import Learning from "../layouts/courses/Learning";
 import Program from "../layouts/courses/program";
 import MethodPay from "../layouts/courses/methodPay";
-import { getCourses } from "../services/courseServices";
+import { getInformeCourses } from "../services/courseServices";
 import Question from "../layouts/courses/Question";
 import Contac from "../layouts/courses/Contac";
 import Hours from "../layouts/courses/Hours";
+// import { getInformeCourses } from "../../../backend/controllers/informeCourse";
 
 export default function Course() {
 	const { id } = useParams(); // Captura el ID desde la URL
@@ -17,28 +18,21 @@ export default function Course() {
 	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
-		const fetchCourse = async () => {
+		const fetchCourseDetails = async () => {
 			try {
-				const data = await getCourses();
-				const selectedCourse = data.find((course) => course.id.toString() === id);
-				
-				if(selectedCourse){
-					setCourse(selectedCourse);
-				} else {
-					console.error("Curso no encontrado.");
-				}
-
-
+				const data = await getInformeCourses(id); // 🔹 Llamamos la función correcta
+				setCourse(data);
 			} catch (error) {
-				console.error("Error al cargar los curso:", error);
-				setLoading(false);
+				console.error("Error al cargar los datos del curso:", error);
+				setCourse(null);
 			} finally {
 				setLoading(false);
 			}
 		};
 
-		fetchCourse();
+		fetchCourseDetails();
 	}, [id]);
+
 
 	if (loading) return <p className="text-center py-10 text-lg font-bold">Cargando...</p>;
 	if (!course) return (
@@ -67,7 +61,7 @@ export default function Course() {
 								<h1 className="font-bold text-3xl text-sky-400 tracking-tight uppercase">
 									{course.nombre}
 								</h1>
-								<p className="text-base text-gray-50 ">
+								<p className="text-base text-gray-50">
 									{course.subtitulo}
 								</p>
 							</div>
@@ -95,7 +89,7 @@ export default function Course() {
 									<span>
 										Duración:{" "}
 										<span className="font-semibold">
-											{course.semanas}
+											{course.duracion}
 										</span>
 									</span>
 								</li>
@@ -141,22 +135,20 @@ export default function Course() {
 					</div>
 				</section>
 				<About
-					acerca={course.detalles.acerca}
-					nameInstructor={course.detalles.docente.nombre}
+					acerca={course.informeCurso.descripcion}
+					nameInstructor={course.informeCurso.docente.nombre}
 				/>
 				<Learning
-					dirigido={course.detalles.dirigido}
-					habilidades={course.detalles.habilidades}
+					dirigido={course.informeCurso.dirigido}
+					habilidades={course.informeCurso.habilidades}
 				/>
-				<Program temario={course.detalles.temario} />
-				<Hours
-					inicio={formatDate(course.fecha_inicio)}
-				/>
+				<Program temario={course.informeCurso.temario} />
+				<Hours inicio={formatDate(course.fecha_inicio)} />
 				<MethodPay pagos={course.precio} />
 				<Question />
 				<Contac />
 			</main>
-			<Footer></Footer>
+			<Footer />
 		</>
 	);
 }

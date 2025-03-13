@@ -2,7 +2,7 @@ import db from "../config/db.js";
 
 export const getInformeCourses = async (req, res) => {
 	try {
-		const { id } = req.params; // Captura el ID de la URL
+		const { id } = req.params; // Captura el ID del curso
 
 		const [rows] = await db.query(
 			`
@@ -24,24 +24,25 @@ export const getInformeCourses = async (req, res) => {
                 d.c_nombredocente AS docente_nombre,
                 d.c_fotodocente AS docente_imagen,
 
-                -- Información del horario
-                h.c_dia AS horario_dia,
-                h.c_horas AS horario_hora,
+                -- Obtener solo UN horario
+                (SELECT CONCAT(h.c_dia, ' - ', h.c_horas) 
+                 FROM T_Horario h 
+                 INNER JOIN T_InformeCurso ic ON h.c_idhorario = ic.c_idhorario 
+                 WHERE ic.c_idcurso = c.c_idcurso LIMIT 1) AS horario,
 
-                -- Información de sectores dirigidos
+                -- Sectores dirigidos y habilidades como arrays
                 GROUP_CONCAT(DISTINCT dir.c_sector SEPARATOR ', ') AS dirigido,
-
-                -- Información de habilidades
                 GROUP_CONCAT(DISTINCT hab.c_habilidad SEPARATOR ', ') AS habilidades,
 
-                -- Información de módulos y contenidos
+                -- Información de módulos y temas
+                m.c_idmodulo AS id_modulo,
                 m.c_nombremodulo AS nombre_modulo,
-                GROUP_CONCAT(DISTINCT con.c_descripcion SEPARATOR ', ') AS temas
+                con.c_idcontenido AS id_contenido,
+                con.c_descripcion AS tema
 
             FROM T_Cursos c
             LEFT JOIN T_InformeCurso ic ON c.c_idcurso = ic.c_idcurso
             LEFT JOIN T_Docente d ON ic.c_iddocente = d.c_iddocente
-            LEFT JOIN T_Horario h ON ic.c_idhorario = h.c_idhorario
             LEFT JOIN T_Cursos_Dirigido cd ON c.c_idcurso = cd.c_idcurso
             LEFT JOIN T_Dirigido dir ON cd.c_iddirigido = dir.c_iddirigido
             LEFT JOIN T_Cursos_Habilidades ch ON c.c_idcurso = ch.c_idcurso
@@ -50,7 +51,7 @@ export const getInformeCourses = async (req, res) => {
             LEFT JOIN T_Contenido con ON m.c_idmodulo = con.c_idmodulo
 
             WHERE c.c_idcurso = ?
-            GROUP BY c.c_idcurso, m.c_idmodulo, h.c_idhorario
+            ORDER BY m.c_idmodulo, con.c_idcontenido
         `,
 			[id]
 		);
@@ -59,7 +60,7 @@ export const getInformeCourses = async (req, res) => {
 			return res.status(404).json({ message: "Curso no encontrado" });
 		}
 
-		// Transformar los datos en JSON estructurado
+		// Estructurar JSON del curso
 		const curso = {
 			id: rows[0].id,
 			nombre: rows[0].nombre,
@@ -72,8 +73,7 @@ export const getInformeCourses = async (req, res) => {
 			categoria: rows[0].categoria,
 			precio: rows[0].precio,
 			estado: rows[0].estado,
-			descripcion: rows[0].descripcion,
-			informecursos: {
+			informeCurso: {
 				descripcion: rows[0].descripcion,
 				docente: {
 					nombre: rows[0].docente_nombre,
@@ -83,26 +83,34 @@ export const getInformeCourses = async (req, res) => {
 				habilidades: rows[0].habilidades
 					? rows[0].habilidades.split(", ")
 					: [],
-				temario: {},
-				horarios: {},
+				temario: {}, // Se llenará con los módulos y contenidos
+				horario: rows[0].horario || "No disponible",
 			},
 		};
 
-		// Agrupar módulos y contenidos
+		// Agrupar módulos y sus contenidos correctamente
 		rows.forEach((row) => {
-			if (!curso.informecursos.temario[row.nombre_modulo]) {
-				curso.informecursos.temario[row.nombre_modulo] = {
-					nombre_modulo: row.nombre_modulo,
-					temas: row.temas ? row.temas.split(", ") : [],
+			if (!row.id_modulo) return; // Si no hay módulo, se ignora
+
+			const moduloKey = `modulo_${row.id_modulo}`;
+
+			// Si el módulo aún no existe en el JSON, lo creamos
+			if (!curso.informeCurso.temario[moduloKey]) {
+				curso.informeCurso.temario[moduloKey] = {
+					nombreModulo: row.nombre_modulo,
 				};
 			}
-		});
 
-		// Agrupar horarios
-		rows.forEach((row, index) => {
-			curso.informecursos.horarios[
-				`horario_${index + 1}`
-			] = `${row.horario_dia} - ${row.horario_hora}`;
+			// Si el módulo tiene temas (contenidos), los agregamos correctamente
+			if (row.tema) {
+				const temasKeys =
+					Object.keys(curso.informeCurso.temario[moduloKey]).filter(
+						(key) => key.startsWith("temario_")
+					).length + 1;
+
+				curso.informeCurso.temario[moduloKey][`temario_${temasKeys}`] =
+					row.tema;
+			}
 		});
 
 		res.json(curso);
