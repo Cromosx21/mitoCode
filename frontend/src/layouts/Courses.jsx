@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { use, useContext } from "react";
 import { CourseContext } from "../context/CourseContext";
 import CardCourse from "../components/cardCourse";
 import { useNavigate } from "react-router-dom";
@@ -10,7 +10,8 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 
 export default function Courses() {
-	const { courses, searchTerm } = useContext(CourseContext);
+	const { courses } = useContext(CourseContext);
+	const { searchTerm } = useContext(CourseContext);
 	const navigate = useNavigate();
 
 	const handleClick = () => {
@@ -18,9 +19,6 @@ export default function Courses() {
 		navigate(`/search/cursos`);
 	};
 
-	const filteredCourses = courses.filter((course) =>
-		course.nombre.toLowerCase().includes(searchTerm.toLowerCase())
-	);
 	const formatDate = (dateString) => {
 		const date = new Date(dateString);
 		return date.toLocaleDateString("es-ES", {
@@ -60,8 +58,8 @@ export default function Courses() {
 							1024: { slidesPerView: 3.2 },
 						}}
 					>
-						{filteredCourses.length > 0 ? (
-							filteredCourses.map((course) => (
+						{courses.length > 0 ? (
+							courses.map((course) => (
 								<SwiperSlide key={course.id}>
 									<CardCourse
 										id={course.id}

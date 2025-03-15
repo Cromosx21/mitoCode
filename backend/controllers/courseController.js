@@ -4,22 +4,22 @@ export const getCourses = async (req, res) => {
 	try {
 		const [rows] = await db.query(`
             SELECT 
-                c_idcurso AS id, 
-                c_nombre AS nombre, 
-                c_subtitulo AS subtitulo, 
-                c_imagen AS imagen, 
-                c_modalidad AS modalidad, 
-                c_duracion AS duracion, 
-                c_horas AS horas,
-                c_fechainicio AS fecha_inicio, 
-                c_categoria AS categoria, 
-                c_precio AS precio, 
-                c_estado AS estado, 
-                c_descripcion AS descripcion
-				FROM T_Cursos
+                c.c_idcurso AS id, 
+                c.c_nombre AS nombre, 
+                c.c_subtitulo AS subtitulo, 
+                c.c_imagen AS imagen, 
+                c.c_modalidad AS modalidad, 
+                c.c_duracion AS duracion, 
+                c.c_horas AS horas,
+                c.c_fechainicio AS fecha_inicio, 
+                c.c_precio AS precio, 
+                c.c_estado AS estado, 
+                c.c_descripcion AS descripcion,
+                m.c_nombremodulo AS categoria
+            FROM T_Cursos c LEFT JOIN T_Modulo m ON c.c_idmodulo = m.c_idmodulo
         `);
 
-		// Estructurar los datos para eliminar duplicados
+		// Estructurar los datos eliminando duplicados
 		const cursosMap = {};
 
 		rows.forEach((row) => {
@@ -39,7 +39,6 @@ export const getCourses = async (req, res) => {
 					descripcion: row.descripcion,
 				};
 			}
-
 		});
 
 		// Convertir el objeto en un array de cursos

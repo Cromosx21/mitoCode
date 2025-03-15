@@ -3,10 +3,10 @@ import Details from "../../components/Details";
 export default function Question() {
 	return (
 		<>
-			<section className="bg-sky-100 py-20 px-6 w-full">
+			<section className="bg-gray-100 py-20 px-6 w-full">
 				<div className="max-w-7xl mx-auto flex flex-row flex-wrap items-center justify-center lg:justify-between relative gap-8">
 					<div className="flex flex-col gap-4 items-start w-full">
-						<h2 className="text-3xl font-bold text-gray-900">
+						<h2 className="text-3xl font-bold text-sky-950">
 							Preguntas frecuentes
 						</h2>
 						<div className="w-full flex flex-col gap-3 ">

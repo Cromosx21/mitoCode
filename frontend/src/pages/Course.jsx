@@ -56,13 +56,13 @@ export default function Course() {
 			<main className="font-Montserrat">
 				<section className="w-full bg-gray-800 py-12 px-6">
 					<div className="max-w-7xl mx-auto flex flex-row flex-wrap items-center justify-between gap-8">
-						<div className="flex flex-col gap-4">
-							<div>
+						<div className="flex flex-col gap-6">
+							<div className="max-w-xl">
 								<h1 className="font-bold text-3xl text-sky-400 tracking-tight uppercase">
 									{course.nombre}
 								</h1>
-								<p className="text-base text-gray-50">
-									{course.subtitulo}
+								<p className="text-base text-gray-50 mt-2">
+									{course.informeCurso.descripcion}
 								</p>
 							</div>
 							<ul className="grid grid-cols-2 gap-4 grid-auto-rows text-gray-200">
@@ -91,6 +91,7 @@ export default function Course() {
 										<span className="font-semibold">
 											{course.duracion}
 										</span>
+										{ " "}Semanas
 									</span>
 								</li>
 								<li className="flex flex-row items-center gap-2">

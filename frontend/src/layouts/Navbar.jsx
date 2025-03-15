@@ -31,6 +31,17 @@ export default function Navbar() {
 
 	const navigate = useNavigate();
 
+	const handleSearch = (e) => {
+		e.preventDefault();
+		const searchValue = e.target.querySelector("input").value.trim();
+		if (searchValue) {
+			setSearchTerm(searchValue);
+			navigate(`/search?search=${encodeURIComponent(searchValue)}`);
+		}
+	};
+
+
+
 	return (
 		<>
 			<nav className="w-full bg-slate-100 px-5 shadow-md sticky top-0 z-20">
@@ -92,22 +103,24 @@ export default function Navbar() {
 					{/* Buscador */}
 					<div className="flex flex-row items-center gap-2 md:max-w-md md:w-full md:justify-end">
 						<form
-							onSubmit={(e) => e.preventDefault()}
+							onSubmit={handleSearch}
 							className="border border-gray-200 inset-shadow-sm bg-white rounded-md items-center justify-between hidden md:flex"
 						>
 							<input
 								type="text"
 								placeholder="¿Qué quieres aprender?"
 								className="w-full min-w-64 px-2 py-2 text-xs text-gray-800 font-regular outline-none"
-								onChange={(e) => setSearchTerm(e.target.value)}
 							/>
-							<button className="px-2 py-2 text-md text-gray-800">
+							<button
+								type="submit"
+								className="px-2 py-2 text-md text-gray-800 hover:text-sky-400 transition-colors duration-500 ease-in-out cursor-pointer"
+							>
 								<FontAwesomeIcon icon={faSearch} />
 							</button>
 						</form>
 						<span className="w-0.5 h-6 bg-gray-300 block mx-2"></span>
 						<button
-							className="leading-14 text-sky-900 font-semibold text-sm tracking-wide hover:text-sky-400 transition-colors duration-500 ease-in-out cursor-pointer"
+							className="leading-14 text-sky-900 font-semibold text-sm tracking-wide hover:text-sky-400 transition-colors duration-500 ease-in-out cursor-pointer hidden"
 							onClick={() => navigate("/sesion/login")}
 						>
 							Iniciar sesión
