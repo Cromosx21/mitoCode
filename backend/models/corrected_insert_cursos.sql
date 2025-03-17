@@ -129,13 +129,13 @@ INSERT INTO T_Docente (c_nombredocente, c_fotodocente) VALUES ('Luis Fernández'
 INSERT INTO T_Docente (c_nombredocente, c_fotodocente) VALUES ('Sofía Martínez', 'sofia_martinez.jpg');
 
 -- Insertar horarios
-INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Lunes', '08:00','10:00 AM');
-INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Martes', '06:00', '08:00 PM');
-INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Miércoles', '04:00','06:00 PM');
-INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Jueves', '10:00','12:00 PM');
-INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Viernes', '02:00','04:00 PM');
-INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Sábado', '09:00','11:00 AM');
-INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Domingo', '09:00','11:00 AM');
+INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Lunes', '08:00','10:00');
+INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Martes', '06:00', '08:00');
+INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Miércoles', '04:00','06:00');
+INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Jueves', '10:00','12:00');
+INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Viernes', '02:00','04:00');
+INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Sábado', '09:00','11:00');
+INSERT INTO T_Horario (c_dia, c_hora_inicio, c_hora_fin) VALUES ('Domingo', '09:00','11:00');
 
 -- Insertar Sectores Dirigidos
 INSERT INTO T_Dirigido (c_sector) VALUES 
@@ -148,6 +148,27 @@ INSERT INTO T_Habilidades (c_habilidad) VALUES
 ('Conocimientos básicos y avanzados del tema'),
 ('Aplicaciones prácticas'),
 ('Casos de estudio');
+
+
+-- Insertar Preguntas y Respuestas
+INSERT INTO T_Preguntas (c_pregunta, c_respuesta) VALUES
+(
+    "¿Cómo son las clases y el acceso al curso?",
+    "Si el curso es ONLINE EN VIVO será desarrollado vía ZOOM y quedan grabadas para posterior repaso desde nuestro campus virtual, los videos no son descargables pero están disponibles las 24 horas del día, el código y guías si son descargables, además tendrás soporte a tus dudas en vivo en las clases o luego vía mail o discord. Si el curso es de tipo grabado podrás revisar su contenido en el campus virtual y enviar tus consultas también bajo mail o discord. El acceso al campus virtual es de por vida, es decir terminas el curso y podrás seguir accediendo a su contenido."
+),
+(
+    "Si no puedo asistir a clases en vivo ¿Cómo puedo revisarlo?",
+    "Podrás revisar después desde nuestro campus virtual."
+),
+(
+    "¿Se emite certificado al finalizar el curso?",
+    "Sí, tras aprobar el curso podrás emitir un certificado de conclusión del curso. El certificado es digital [PDF] a nombre de la empresa MetaWill, en el cuál indica la modalidad online, cantidad de horas, fecha y hora de inicio, fin del curso y un QR con la información del curso."
+),
+(
+    "Tengo empresa o una empresa pagará el curso, ¿Emiten factura?",
+    "Sí, emitimos la factura con validez tributaria en Perú. Si eres de otro país deberás agregar los impuestos correspondientes."
+);
+
 
 -- Insertar cursos y relaciones
 
@@ -1549,5 +1570,5 @@ INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (168, 'Deta
 
 
 use dbmeta;
-SELECT * from t_detallecontenido
+SELECT * from t_preguntas
 

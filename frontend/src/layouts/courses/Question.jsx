@@ -1,6 +1,31 @@
 import Details from "../../components/Details";
+import { getFaqs } from "../../services/courseServices";
+import {useState, useEffect} from "react";
 
 export default function Question() {
+	const [faqs, setFaqs] = useState([]);
+	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		const fetchFaqs = async () => {
+			try {
+				const data = await getFaqs();
+				if (data){
+					setFaqs(data);
+				};
+				setLoading(false);
+			} catch (error) {
+				console.error(error);
+			} finally {
+				setLoading(false);
+			}
+		};
+		fetchFaqs();
+	},[]);
+
+	if (loading) return <p className="text-center py-10 text-lg font-bold">Cargando Preguntas Frecuentes...</p>;
+
+
 	return (
 		<>
 			<section className="bg-gray-100 py-20 px-6 w-full">
@@ -10,22 +35,20 @@ export default function Question() {
 							Preguntas frecuentes
 						</h2>
 						<div className="w-full flex flex-col gap-3 ">
-							<Details
-								title="¿Cómo son las clases y el acceso al curso?"
-								description="Si el curso es ONLINE EN VIVO será desarrollado vía ZOOM y quedan grabadas para posterior repaso desde nuestro campus virtual, los videos no son descargables pero están disponibles las 24 horas del día, el código y guías si son descargables, además tendrás soporte a tus dudas en vivo en las clases o luego vía mail o discord. Si el curso es de tipo grabado podrás revisar su contenido en el campus virtual y enviar tus consultas también bajo mail o discord. El acceso al campus virtual es de por vida, es decir terminas el curso y podrás seguir accediendo a su contenido."
-							/>
-							<Details
-								title="Si no puedo asistir a clases en vivo ¿Cómo puedo revisarlo?"
-								description="Podrás revisar después desde nuestro campus virtual"
-							/>
-							<Details
-								title="¿Se emite certificado al finalizar el curso?"
-								description="Si, tras aprobar el curso podrás emitir un certificado de conclusión del curso. El certificado es digital [PDF] a nombre de la empresa MetaWill, en el cuál indica la modalidad online, cantidad de horas, fecha y hora de inicio, fin del curso y un QR con la información del curso."
-                            />
-                            <Details
-                                title="Tengo empresa o una empresa pagará el curso, ¿Emiten factura?"
-                                description="Sí, emitimos la factura con validez tributaria en Perú. Si eres de otro país deberás agregar los impuestos correspondientes."
-                            />
+							{faqs.length > 0 ? (
+								faqs.map((faq, index) => (
+									<Details
+										key={index}
+										title={faq.pregunta}
+										description={faq.respuesta}
+									/>
+								))
+							) : (
+								<p className="text-center py-10 text-lg font-bold">
+									No hay preguntas frecuentes
+								</p>
+							)}
+
 						</div>
 					</div>
 				</div>

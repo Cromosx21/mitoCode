@@ -50,7 +50,11 @@ export const getInformeCourses = async (req, res) => {
 			LEFT JOIN T_DetalleContenido det ON con.c_idcontenido = det.c_idcontenido
 
 			WHERE c.c_idcurso = ?
-			GROUP BY c.c_idcurso, con.c_idcontenido
+			GROUP BY 
+				c.c_idcurso, c.c_nombre, c.c_subtitulo, c.c_imagen, 
+				c.c_modalidad, c.c_duracion, c.c_horas, c.c_fechainicio, 
+				m.c_nombremodulo, c.c_precio, c.c_estado, c.c_descripcion,
+				d.c_nombredocente, d.c_fotodocente, con.c_idcontenido, con.c_descripcion
 			ORDER BY con.c_idcontenido
 			`,
 			[id]
