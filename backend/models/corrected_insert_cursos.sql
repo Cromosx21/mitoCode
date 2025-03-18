@@ -1439,23 +1439,24 @@ INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (136, 'Deta
 INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (136, 'Detalle #2 de Clase #4');
 INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (136, 'Detalle #3 de Clase #4');
 INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (136, 'Detalle #4 de Clase #4');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (137, 'Detalle #1 de Clase #1');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (137, 'Detalle #2 de Clase #1');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (137, 'Detalle #3 de Clase #1');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (137, 'Detalle #4 de Clase #1');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (138, 'Detalle #1 de Clase #2');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (138, 'Detalle #2 de Clase #2');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (138, 'Detalle #3 de Clase #2');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (138, 'Detalle #4 de Clase #2');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (139, 'Detalle #1 de Clase #3');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (139, 'Detalle #2 de Clase #3');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (139, 'Detalle #3 de Clase #3');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (139, 'Detalle #4 de Clase #3');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (140, 'Detalle #1 de Clase #4');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (140, 'Detalle #2 de Clase #4');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (140, 'Detalle #3 de Clase #4');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (137, 'Entorno de trabajo (interfaz).');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (137, 'Inicio y reconocimiento del entorno de AutoCAD.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (137, 'Descripción de las partes principales de la pantalla.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (137, 'Ajuste de la rejilla comando GRID.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (138, 'Rastreo polar, Entrada dinámica.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (138, 'Sistema de coordenadas.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (138, 'Especificación de coordenadas cartesianas y
+polares.Determinación.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (138, 'De las unidades de medida comando UNITS.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (139, 'Aplicar sombreado y relleno a los objetos comando HATCH.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (139, 'Editar sombreados o rellenos comando HATCHEDIT.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (139, 'Copiar propiedades de objetos comando MATCHPROP.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (139, 'Crear estilos de texto y sombreado.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (140, 'Dimensionado.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (140, 'Crear estilo de dimensionado comando DIMSTYLE.');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (140, 'Ficha líneas.');
 INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (140, 'Detalle #4 de Clase #4');
-INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (141, 'Detalle #1 de Clase #1');
+INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (141, 'Ficha símbolos y fleches. Ficha texto.');
 INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (141, 'Detalle #2 de Clase #1');
 INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (141, 'Detalle #3 de Clase #1');
 INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (141, 'Detalle #4 de Clase #1');
@@ -1570,5 +1571,5 @@ INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (168, 'Deta
 
 
 use dbmeta;
-SELECT * from t_preguntas
+SELECT * from t_detallecontenido
 
