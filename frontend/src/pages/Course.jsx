@@ -4,7 +4,7 @@ import Navbar from "../layouts/Navbar";
 import Footer from "../layouts/Footer";
 import About from "../layouts/courses/About";
 import Learning from "../layouts/courses/Learning";
-import Program from "../layouts/courses/program";
+import Program from "../layouts/courses/Program";
 import MethodPay from "../layouts/courses/methodPay";
 import { getInformeCourses } from "../services/courseServices";
 import Question from "../layouts/courses/Question";

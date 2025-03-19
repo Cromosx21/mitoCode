@@ -1584,6 +1584,3 @@ INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (168, 'Deta
 INSERT INTO T_DetalleContenido (c_idcontenido, c_descripcion) VALUES (168, 'Detalle #4 de Clase #4');
 
 
-use dbmeta;
-SELECT * from t_detallecontenido
-

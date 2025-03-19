@@ -38,7 +38,7 @@ export default function FilterCourses({ selectedCategory }) {
 						{filteredCourses.length > 0 ? (
 							filteredCourses.map((course) => (
 								<CardCourse
-									key={course.id} // Agrega una `key` única
+									key={course.id}
 									id={course.id}
 									imgCourse={course.imagen}
 									nameCourse={course.nombre}
@@ -47,10 +47,10 @@ export default function FilterCourses({ selectedCategory }) {
 									mode={course.modalidad}
 									weeks={
 										course.modalidad === "En vivo"
-											? course.semanas
+											? `${course.duracion} semanas`
 											: ""
 									}
-									hours={course.horas}
+									hours={`${course.horas} horas`}
 									price={course.precio}
 									status={course.estado}
 								/>

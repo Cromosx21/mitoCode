@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import db from "./config/db.js";
 import courseRoutes from "./routes/courseRoutes.js";
 import faqsRoutes from "./routes/faqsRoutes.js";
+import downloadRoutes from "./routes/downloadRoutes.js";
 
 dotenv.config();
 
@@ -14,6 +15,8 @@ app.use(express.json());
 // Rutas
 app.use("/api/courses", courseRoutes);
 app.use("/api/faqs", faqsRoutes);
+app.use("/api/download", downloadRoutes);
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
