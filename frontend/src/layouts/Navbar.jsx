@@ -92,10 +92,12 @@ export default function Navbar() {
 							<Anchor
 								nameAnchor="Promociones"
 								classAnchor="leading-14 text-sky-900 font-semibold text-sm tracking-wide hover:text-sky-400 transition-colors duration-500 ease-in-out"
+								href={"/promotions"}
 							/>
 							<Anchor
 								nameAnchor="Mis certificados"
 								classAnchor="leading-14 text-sky-900 font-semibold text-sm tracking-wide hover:text-sky-400 transition-colors duration-500 ease-in-out"
+								href={"/certificates"}
 							/>
 						</div>
 					</div>

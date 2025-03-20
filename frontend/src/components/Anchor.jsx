@@ -1,7 +1,7 @@
-export default function Anchor({ nameAnchor, classAnchor }) {
+export default function Anchor({ nameAnchor, classAnchor , href }) {
     return (
         <>
-            <a href="#" className={` py-2 text-md  cursor-pointer  transition-all ${classAnchor}`}>{ nameAnchor}</a>
+            <a href={ href} className={` py-2 text-md  cursor-pointer  transition-all ${classAnchor} `} >{ nameAnchor}</a>
         </>
     )
 }

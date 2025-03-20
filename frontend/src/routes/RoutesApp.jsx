@@ -5,6 +5,8 @@ import SearchResults from "../pages/SearchResults"; // Importa el componente cor
 import Sesion from "../pages/Sesion";
 import SearchAllCourses from "../pages/SearchAllCourses";
 import SearchCourse from "../pages/SearchCourse";
+import Promotion from "../pages/Promotion";
+import Certificate from "../pages/Certificate";
 
 const RoutesApp = () => {
 	return (
@@ -15,6 +17,8 @@ const RoutesApp = () => {
 			<Route path="/search/:category" element={<SearchCourse />} />
 			<Route path="/search/cursos" element={<SearchAllCourses />} />
 			<Route path="/sesion/:sesion" element={<Sesion />} />
+			<Route path="/promotions" element={<Promotion />} />
+			<Route path="/certificates" element={<Certificate />} />
 		</Routes>
 	);
 };
