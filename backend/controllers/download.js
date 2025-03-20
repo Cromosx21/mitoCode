@@ -1,4 +1,9 @@
 import db from "../config/db.js";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
 
 export const getDownload = async (req, res) => {
     try {
@@ -25,3 +30,22 @@ export const getDownload = async (req, res) => {
         res.status(500).json({ message: "Error al obtener las preguntas frecuentes" });
     }
 }
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+export const verificarArchivo = (req, res) => {
+	const fileName = req.params.nombre;
+	const filePath = path.join(
+		__dirname,
+		"../../frontend/src/syllabus",
+		`${fileName}.pdf`
+	); // Ajusta la ruta según tu estructura de archivos
+
+	fs.access(filePath, fs.constants.F_OK, (err) => {
+		if (err) {
+			return res.json({ exists: false });
+		}
+		return res.json({ exists: true });
+	});
+};
