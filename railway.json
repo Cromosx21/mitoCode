@@ -16,7 +16,7 @@
       "buildCommand": "cd frontend && npm run build",
       "startCommand": "cd frontend && npm run preview",
       "env": {
-        "VITE_API_URL": "https://tu-backend-en-railway.app"
+        "VITE_API_URL": "mitocode-production.up.railway.app"
       }
     }
   }
