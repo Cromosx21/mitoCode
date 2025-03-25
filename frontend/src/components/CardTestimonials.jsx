@@ -5,7 +5,7 @@ export default function CardTestimonials({ testimonial, imageUser, nameUser, job
 				<p className="text-base text-sky-900">"{testimonial}"</p>
 				<figure className="flex flex-row gap-4 items-start">
 					<img
-						src={`../src/assets/Nuestro-Equipo/${imageUser}`}
+						src={`/Nuestro-Equipo/${imageUser}`}
 						alt={`Foto de ${nameUser}`}
 						className="max-w-16 rounded-full aspect-square"
 						loading="lazy"
