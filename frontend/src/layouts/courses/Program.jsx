@@ -23,10 +23,7 @@ export default function Program({ temario }) {
 				}
 
 				setNameDownload(cursoEncontrado);
-				console.log(
-					"📂 Archivo encontrado:",
-					cursoEncontrado.nombreCurso
-				);
+				// console.log("📂 Archivo encontrado:",cursoEncontrado.nombreCurso);
 				await checkFileExists(cursoEncontrado.nombreCurso);
 			} catch (error) {
 				console.error(
@@ -48,7 +45,7 @@ export default function Program({ temario }) {
 
 				const result = await response.json();
 				setFileExists(result.exists);
-				console.log("✅ Archivo encontrado:", result.exists);
+				// console.log("✅ Archivo encontrado:", result.exists);
 			} catch (error) {
 				console.error("❌ Error al verificar el archivo:", error);
 				setFileExists(false);
@@ -77,16 +74,17 @@ export default function Program({ temario }) {
 									fileExists
 										? `https://frontend-mu-nine-54.vercel.app/syllabus/${encodeURIComponent(
 												nameDownload.nombreCurso
-										  )}.pdf`
+											)}.pdf`
 										: "#"
 								}
+								target={fileExists ? "_blank" : "_self"}
 								className={`flex flex-row items-center gap-2 py-2 px-4 rounded-lg font-semibold uppercase text-gray-50 transition-all 
 								${
 									fileExists
 										? "bg-sky-800 cursor-pointer hover:shadow-md hover:shadow-gray-400 hover:-translate-y-1 hover:bg-sky-700"
 										: "bg-gray-400 cursor-not-allowed"
 								}`}
-								download={fileExists}
+								// download={fileExists}
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
