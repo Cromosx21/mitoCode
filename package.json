@@ -1,7 +1,6 @@
 {
-    "scripts": {
-      "postinstall": "npm install",
-      "start": "node server.js"
-    }
+  "scripts": {
+    "postinstall": "npm install --prefix backend && npm install --prefix frontend",
+    "start": "cd backend && npm start"
   }
-  
+}
