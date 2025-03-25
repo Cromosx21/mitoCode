@@ -45,7 +45,7 @@ export default function About() {
 						{selectCard == "El Inicio" && (
 							<div className="flex flex-col gap-4 items-center">
 								<img
-									src="../src/assets/Iniciamos.png"
+									src="/Iniciamos.png"
 									alt="Imagen de inicio aspect-auto"
 									loading="lazy"
 								/>
@@ -59,7 +59,7 @@ export default function About() {
 								<div className="flex flex-row flex-wrap gap-8 items-center justify-between">
 									<figure className="max-w-64">
 										<img
-											src="../src/assets/Nuestro-Equipo/Abraham-Salazar.png"
+											src="/Nuestro-Equipo/Abraham-Salazar.png"
 											alt="Foto del profesor Abraham Salazar"
 											className="aspect-square"
 											loading="lazy"

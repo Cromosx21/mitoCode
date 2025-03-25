@@ -1,4 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Hero() {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/search/cursos");
+    };
+
     return (
         <section className="bg-sky-400 w-full py-4 px-6 relative overflow-hidden">
             <span className="absolute max-w-[512px] w-full h-[512px] border-[96px] rounded-full -top-32 -left-40 z-0 border-sky-500"></span>
@@ -9,7 +17,7 @@ export default function Hero() {
                         <h1 className="font-bold text-4xl tracking-tighter text-gray-50 uppercase">Aprende tecnologías de alta demanda laboral</h1>
                         <p className=" font-light text-base text-gray-900">Nos dedicamos que crezcas profesionalmente y puedas aplicarlo en tu vida</p>
                     </div>
-                    <button type="button" className="py-2 px-4 w-fit bg-blue-900 text-gray-50 text-lg font-semibold rounded-full cursor-pointer hover:bg-blue-800  duration-500 ease-in-out hover:-translate-y-1 transition-all hover:shadow-xl" onClick={() => { window.location.href = "/search/cursos" }} >
+                    <button type="button" className="py-2 px-4 w-fit bg-blue-900 text-gray-50 text-lg font-semibold rounded-full cursor-pointer hover:bg-blue-800  duration-500 ease-in-out hover:-translate-y-1 transition-all hover:shadow-xl" onClick={handleClick} >
                         !Comienza ahora!
                     </button>
                 </div>
