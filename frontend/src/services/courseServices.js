@@ -1,9 +1,17 @@
 import axios from "axios";
 
-// URL del backend (cambia a tu dominio cuando lo despliegues)
-const API_URL = "http://localhost:5000/api/courses";
-const API_URL_FAQS = "http://localhost:5000/api/faqs";
-const API_URL_DOWNLOAD = "http://localhost:5000/api/download";
+// Obtiene la URL del backend desde las variables de entorno
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+
+// Asegura que la URL del backend está definida
+if (!API_BASE_URL) {
+	console.error("⚠️ VITE_API_URL no está definida. Asegúrate de configurarla en Railway.");
+}
+
+// Define las rutas correctamente
+const API_URL = `${API_BASE_URL}/api/courses`;
+const API_URL_FAQS = `${API_BASE_URL}/api/faqs`;
+const API_URL_DOWNLOAD = `${API_BASE_URL}/api/download`;
 
 // Obtener todos los cursos
 export const getCourses = async () => {
@@ -16,10 +24,10 @@ export const getCourses = async () => {
 	}
 };
 
-// 🔹 Obtener un curso por ID con informe completo
+// Obtener un curso por ID con informe completo
 export const getInformeCourses = async (id) => {
 	try {
-		const response = await axios.get(`${API_URL}/${id}`); // Llamada a la API correcta
+		const response = await axios.get(`${API_URL}/${id}`);
 		return response.data;
 	} catch (error) {
 		console.error(`Error al obtener el curso ${id}`, error);
@@ -39,10 +47,10 @@ export const getFaqs = async () => {
 
 export const getDownload = async () => {
 	try {
-		const response = await axios.get(`${API_URL_DOWNLOAD}`); // Llamada a la API correcta
+		const response = await axios.get(API_URL_DOWNLOAD);
 		return response.data;
 	} catch (error) {
-		console.error(`Error al obtener los nombres de los cursos ${id}`, error);
+		console.error("Error al obtener los nombres de los cursos", error);
 		return null;
 	}
-}
+};
