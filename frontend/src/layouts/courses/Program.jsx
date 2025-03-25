@@ -77,7 +77,7 @@ export default function Program({ temario }) {
 									fileExists
 										? `https://frontend-mu-nine-54.vercel.app/syllabus/${encodeURIComponent(
 												nameDownload.nombreCurso
-											)}.pdf`
+										  )}.pdf`
 										: "#"
 								}
 								className={`flex flex-row items-center gap-2 py-2 px-4 rounded-lg font-semibold uppercase text-gray-50 transition-all 
