@@ -1,5 +1,4 @@
-CREATE DATABASE IF NOT EXISTS DBMeta;
-USE DBMeta;
+
 
 -- Tabla de Modulo (Hace referencia a la categoría del curso)
 CREATE TABLE IF NOT EXISTS T_Modulo(
