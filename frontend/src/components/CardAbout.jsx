@@ -10,7 +10,7 @@ export default function CardAbout({ onClick, icon, alt, title, description, sele
 				onClick={onClick}
 			>
 				<img
-					src={`./src/assets/icons/${icon}`}
+					src={`/icons/${icon}`}
 					alt={alt}
 					className="max-w-16 max-h-16 aspect-square"
 					loading="lazy"

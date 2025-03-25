@@ -3,7 +3,7 @@ export default function CardLearning({ icon, alt, description}) {
 		<>
 			<figure className="col-span-1 flex flex-col gap-3 items-center min-w-2xs max-w-sm">
 				<img
-					src={`../src/assets/icons/${icon}`}
+					src={`/icons/${icon}`}
 					alt={alt}
 					className="max-w-16 h-max-w-16 aspect-square"
 				/>

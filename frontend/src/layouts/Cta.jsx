@@ -10,7 +10,7 @@ export default function Cta() {
 						</button>
 					</div>
                     <img
-                        src="../src/assets/Despega.png"
+                        src="/Despega.png"
                         alt="Imagen de Iniciar tu educación."
 						className="lg:absolute lg:left-1/2 aspect-auto "
 						loading="lazy"

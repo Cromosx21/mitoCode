@@ -26,33 +26,33 @@ export default function MethodPay({ pagos }) {
 							<ul className="flex flex-row gap-4 justify-between">
 								<li>
 									<img
-										src="../../src/assets/PayMethod/Visa.png"
+										src="/PayMethod/Visa.png"
 										alt="Tarjeta Visa"
                                         className="mix-blend-multiply"
 									/>
 								</li>
 								<li>
 									<img
-										src="./../src/assets/PayMethod/Mastercard.png"
+										src="/PayMethod/Mastercard.png"
 										alt="Tarjeta Mastercard"
                                         className="mix-blend-multiply"
 									/>
 								</li>
 								<li>
 									<img
-										src="./../src/assets/PayMethod/DinnersClub.png"
+										src="/PayMethod/DinnersClub.png"
 										alt="Tarjeta Dinners Club"
 									/>
 								</li>
 								<li>
 									<img
-										src="./../src/assets/PayMethod/AmericanExpress.png"
+										src="/PayMethod/AmericanExpress.png"
 										alt="Tarjeta American Express"
 									/>
 								</li>
 								<li>
 									<img
-										src="./../src/assets/PayMethod/6Visa.png"
+										src="/PayMethod/6Visa.png"
 										alt="Tarjeta paypal"
 										className="max-h-8"
 									/>
@@ -64,34 +64,34 @@ export default function MethodPay({ pagos }) {
 							<ul className="flex flex-row gap-4 justify-between items-center">
 								<li>
 									<img
-										src="./../src/assets/PayMethod/BCP.png"
+										src="/PayMethod/BCP.png"
 										alt="Tarjeta BCP"
                                         className="mix-blend-multiply"
 									/>
 								</li>
 								<li>
 									<img
-										src="./../src/assets/PayMethod/Interbank.png"
+										src="/PayMethod/Interbank.png"
 										alt="Tarjeta Interbank"
                                         className="mix-blend-multiply"
 									/>
 								</li>
 								<li>
 									<img
-										src="./../src/assets/PayMethod/BBVA.png"
+										src="/PayMethod/BBVA.png"
 										alt="Tarjeta BBVA"
 									/>
 								</li>
 								<li>
 									<img
-										src="./../src/assets/PayMethod/Plin.png"
+										src="/PayMethod/Plin.png"
 										alt="Transferencia Plin"
 										className="max-h-8"
 									/>
 								</li>
 								<li>
 									<img
-										src="./../src/assets/PayMethod/Yape.png"
+										src="/PayMethod/Yape.png"
 										alt="Transferencia Yape"
 										className="max-h-8"
 									/>

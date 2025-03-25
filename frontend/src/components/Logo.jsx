@@ -12,7 +12,7 @@ export default function Logo() {
 			onClick={handleClick}
 		>
 			<img
-				src="/src/assets/logo-removebg-preview.png"
+				src="/logo-removebg-preview.png"
 				alt="Logo"
 				className="max-h-8"
 			/>

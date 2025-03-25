@@ -12,7 +12,7 @@ export default function About({ acerca, nameInstructor}) {
 						</p>
 						<figure className="flex flex-row gap-4 items-start">
 							<img
-								src="../src/assets/instructor/Dany-Cenas.png"
+								src="/instructor/Dany-Cenas.png"
 								alt="Instructor Dany Cenas"
 								className="max-w-16 rounded-full aspect-square border-2 border-sky-400"
 							/>

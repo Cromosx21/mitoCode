@@ -63,7 +63,7 @@ export default function Program({ temario }) {
 							<a
 								href={
 									fileExists
-										? `../../src/syllabus/${encodeURIComponent(nameDownload.nombreCurso)}.pdf`
+										? `/syllabus/${encodeURIComponent(nameDownload.nombreCurso)}.pdf`
 										: "#"
 								}
 								className={`flex flex-row items-center gap-2 py-2 px-4 rounded-lg font-semibold uppercase text-gray-50 transition-all 

@@ -129,7 +129,7 @@ export default function Course() {
 						</div>
 						<div>
 							<img
-								src="../src/assets/course/AWSD.png"
+								src="/course/AWSD.png"
 								alt="Imagen del curso"
 							/>
 						</div>

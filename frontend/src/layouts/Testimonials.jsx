@@ -6,7 +6,7 @@ export default function Testimonials() {
 			<div className="max-w-7xl mx-auto relative">
 				<div className="mt-32 flex flex-col gap-8">
 					<img
-						src="../src/assets/Medios.png"
+						src="/Medios.png"
 						alt="Imagen de medios de comunicación de los testimonios."
 						className="max-w-xs absolute left-1/2 -translate-x-1/2 -top-64 sm:-top-36 xl:-top-1/2 sm:-translate-y-1/2 aspect-auto"
 						loading="lazy"

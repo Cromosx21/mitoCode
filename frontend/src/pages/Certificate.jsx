@@ -11,7 +11,7 @@ export default function Certificate() {
 					Web en construcción
 				</h2>
 				<img
-					src="../src/assets/WebConstruction.svg"
+					src="/WebConstruction.svg"
 					alt="Web en construcción"
 					className="max-w-xl mx-auto"
 				/>

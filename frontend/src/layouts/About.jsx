@@ -67,7 +67,7 @@ export default function About() {
 									</figure>
 									<figure className="max-w-64">
 										<img
-											src="../src/assets/Nuestro-Equipo/Dany-Cenas.png"
+											src="/Nuestro-Equipo/Dany-Cenas.png"
 											alt="Foto del profesor Dany Cenas"
 											className="aspect-square"
 											loading="lazy"
@@ -75,7 +75,7 @@ export default function About() {
 									</figure>
 									<figure className="max-w-64">
 										<img
-											src="../src/assets/Nuestro-Equipo/Jaime-Medina.png"
+											src="/Nuestro-Equipo/Jaime-Medina.png"
 											alt="Foto del profesor Jaime Medina"
 											className="aspect-square"
 											loading="lazy"
@@ -83,7 +83,7 @@ export default function About() {
 									</figure>
 									<figure className="max-w-64">
 										<img
-											src="../src/assets/Nuestro-Equipo/William-Marchan.png"
+											src="/Nuestro-Equipo/William-Marchan.png"
 											alt="Foto del profesor William Marchan"
 											className="aspect-square"
 											loading="lazy"
@@ -113,7 +113,7 @@ export default function About() {
 									</button>
 								</div>
 								<img
-									src="../src/assets/Ayuda-benefica.png"
+									src="/Ayuda-benefica.png"
 									alt="Foto de ayuda benéfica a diversos lugares."
 									className="max-w-3xl w-full border-8 border-gray-50 shadow-lg aspect-auto"
 									loading="lazy"
