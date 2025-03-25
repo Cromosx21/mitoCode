@@ -2,6 +2,7 @@ import axios from "axios";
 
 // Obtiene la URL del backend desde las variables de entorno
 const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+console.log("🌍 VITE_API_URL:", import.meta.env.VITE_API_URL);
 
 // Asegura que la URL del backend está definida
 if (!API_BASE_URL) {
