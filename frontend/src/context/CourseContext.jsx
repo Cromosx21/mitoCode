@@ -9,9 +9,16 @@ export const CourseProvider = ({ children }) => {
 
 	// Obtener cursos desde la API cuando se monte el contexto
 	useEffect(() => {
+		console.log("📌 Se está ejecutando `useEffect` en CourseContext")
 		const fetchCourses = async () => {
-			const data = await getCourses();
-			setCourses(data);
+			try {
+                console.log("📌 Llamando a `getCourses()`...");
+                const data = await getCourses();
+                console.log("📌 Datos recibidos en `CourseContext`:", data);
+                setCourses(data);
+            } catch (error) {
+                console.error("❌ Error obteniendo cursos en CourseContext:", error);
+            }
 		};
 		fetchCourses();
 	}, []);
