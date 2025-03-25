@@ -14,7 +14,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-    origin: "https://mitocode-production.up.railway.app",
+    origin: "*",
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type,Authorization"
 }));
