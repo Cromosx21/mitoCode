@@ -10,10 +10,11 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-	origin: "*", // ⚠️ Esto permite todas las solicitudes (solo para pruebas)
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization"]
+    origin: "https://mitocode-production.up.railway.app",
+    methods: "GET,POST,PUT,DELETE",
+    allowedHeaders: "Content-Type,Authorization"
 }));
+
 app.use(express.json());
 
 // Rutas
