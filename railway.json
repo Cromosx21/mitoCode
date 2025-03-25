@@ -12,11 +12,10 @@
       }
     },
     "frontend": {
-      "installCommand": "cd frontend && npm install",
-      "buildCommand": "cd frontend && npm run build",
-      "startCommand": "cd frontend && npm run preview",
+      "build": "cd frontend && npm install && npm run build",
+      "start": "cd frontend && npm run preview",
       "env": {
-        "VITE_API_URL": "mitocode-production.up.railway.app"
+        "VITE_API_URL": "https://mitocode-production.up.railway.app"
       }
     }
   }
