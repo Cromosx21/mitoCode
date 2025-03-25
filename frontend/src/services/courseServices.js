@@ -17,9 +17,10 @@ const API_URL_DOWNLOAD = `${API_BASE_URL}/api/download`;
 export const getCourses = async () => {
 	try {
 		const response = await axios.get(API_URL);
+		console.log("📌 Cursos obtenidos:", response.data);
 		return response.data;
 	} catch (error) {
-		console.error("Error al obtener cursos", error);
+		console.error("❌ Error al obtener cursos:", error.response?.status, error.message);
 		return [];
 	}
 };
