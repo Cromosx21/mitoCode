@@ -9,7 +9,11 @@ import downloadRoutes from "./routes/downloadRoutes.js";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+	origin: "*", // ⚠️ Esto permite todas las solicitudes (solo para pruebas)
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"]
+}));
 app.use(express.json());
 
 // Rutas
