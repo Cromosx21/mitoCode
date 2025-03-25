@@ -26,7 +26,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // 📌 2️⃣ Servir el frontend estático desde la carpeta `dist`
-app.use(express.static(path.join(__dirname, "../frontend/dist")));
+app.use(express.static(path.join(__dirname, "frontend/dist")));
 
 
 // 📌 3️⃣ Rutas de API
@@ -36,7 +36,7 @@ app.use("/api/download", downloadRoutes);
 
 // 📌 4️⃣ Cualquier otra ruta servirá `index.html` (para manejar rutas en React)
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+    res.sendFile(path.join(__dirname, "frontend/dist", "index.html"));
 });
 
 

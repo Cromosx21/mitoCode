@@ -8,45 +8,55 @@ export default function Program({ temario }) {
 	const [nameDownload, setNameDownload] = useState(null);
 	const [fileExists, setFileExists] = useState(null);
 
-	const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+	const API_BASE_URL =
+		import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 	useEffect(() => {
-        const fetchDownloadName = async () => {
-            try {
-                const data = await getDownload(); // Obtiene el array completo
-
-                const cursoEncontrado = data.find(curso => curso.id === id);
-
-                if (cursoEncontrado) {
-					setNameDownload(cursoEncontrado);
-					checkFileExists(cursoEncontrado.nombreCurso);
-					console.log(cursoEncontrado.nombreCurso);
-                } else {
-                    console.warn("No se encontró el curso con el ID:", id);
-                }
-            } catch (error) {
-                console.error("Error al obtener el nombre del archivo:", error);
-            }
-		};
-		
-		const checkFileExists = async (fileName) => {
+		const fetchDownloadName = async () => {
 			try {
-				const response = await fetch(
-					`${API_BASE_URL}/api/download/verificar-archivo/${encodeURIComponent(fileName)}`
-				); // Reemplaza con la ruta correcta
-				const result = await response.json();
-				setFileExists(result.exists);
-			} catch (error) {
-				console.error("Error al verificar el archivo:", error);
-				setFileExists(false);
+				const data = await getDownload(); // Obtiene el array de cursos con temario
 
+				const cursoEncontrado = data.find((curso) => curso.id === id);
+				if (!cursoEncontrado) {
+					console.warn("⚠️ No se encontró el curso con el ID:", id);
+					return;
+				}
+
+				setNameDownload(cursoEncontrado);
+				console.log(
+					"📂 Archivo encontrado:",
+					cursoEncontrado.nombreCurso
+				);
+				await checkFileExists(cursoEncontrado.nombreCurso);
+			} catch (error) {
+				console.error(
+					"❌ Error al obtener el nombre del archivo:",
+					error
+				);
 			}
 		};
 
-        fetchDownloadName();
-    }, [id, API_BASE_URL]);
+		const checkFileExists = async (fileName) => {
+			try {
+				const response = await fetch(
+					`${API_BASE_URL}/api/download/verificar-archivo/${encodeURIComponent(
+						fileName
+					)}`
+				);
+				if (!response.ok)
+					throw new Error("No se pudo verificar el archivo");
 
+				const result = await response.json();
+				setFileExists(result.exists);
+				console.log("✅ Archivo encontrado:", result.exists);
+			} catch (error) {
+				console.error("❌ Error al verificar el archivo:", error);
+				setFileExists(false);
+			}
+		};
 
+		fetchDownloadName();
+	}, [id, API_BASE_URL]);
 
 	return (
 		<>
@@ -65,7 +75,9 @@ export default function Program({ temario }) {
 							<a
 								href={
 									fileExists
-										? `${API_BASE_URL}/syllabus/${encodeURIComponent(nameDownload.nombreCurso)}.pdf`
+										? `https://frontend-mu-nine-54.vercel.app/syllabus/${encodeURIComponent(
+												nameDownload.nombreCurso
+											)}.pdf`
 										: "#"
 								}
 								className={`flex flex-row items-center gap-2 py-2 px-4 rounded-lg font-semibold uppercase text-gray-50 transition-all 
