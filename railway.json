@@ -1,0 +1,23 @@
+{
+    "services": {
+      "backend": {
+        "env": {
+          "MYSQLHOST": "mysql.railway.internal",
+          "MYSQLPORT": "3306",
+          "MYSQLUSER": "root",
+          "MYSQLPASSWORD": "jAdjlSiGnQyWEifYsvWqxPCssuZqDeIu",
+          "MYSQLDATABASE": "railway"
+        },
+        "build": "cd backend && npm install",
+        "start": "cd backend && node server.js"
+      },
+      "frontend": {
+        "build": "cd frontend && npm install && npm run build",
+        "start": "cd frontend && npm start",
+        "env": {
+          "VITE_API_URL": "https://tu-backend-en-railway.app"
+        }
+      }
+    }
+  }
+  
