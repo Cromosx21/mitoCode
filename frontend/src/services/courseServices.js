@@ -20,7 +20,7 @@ export const getCourses = async () => {
 	const cachedCourses = localStorage.getItem('courses');
 	
 	if (cachedCourses) {
-		console.log("📌 Obteniendo cursos del cache");
+		// console.log("📌 Obteniendo cursos del cache");
 		return JSON.parse(cachedCourses);
 	}
 
