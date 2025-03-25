@@ -38,7 +38,7 @@ export const verificarArchivo = (req, res) => {
 	const fileName = req.params.nombre;
 	const filePath = path.join(
 		__dirname,
-		"../../frontend/src/syllabus",
+		"../../frontend/public/syllabus",
 		`${fileName}.pdf`
 	); // Ajusta la ruta según tu estructura de archivos
 
