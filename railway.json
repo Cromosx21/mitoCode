@@ -13,7 +13,7 @@
       },
       "frontend": {
         "build": "cd frontend && npm install && npm run build",
-        "start": "cd frontend && npm start",
+        "start": "cd frontend && npm dev",
         "env": {
           "VITE_API_URL": "https://tu-backend-en-railway.app"
         }
