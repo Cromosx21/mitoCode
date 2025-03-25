@@ -6,7 +6,9 @@ export default function Program({ temario }) {
 	const { id } = useParams();
 
 	const [nameDownload, setNameDownload] = useState(null);
-	const [fileExists, setFileExists] = useState(false);
+	const [fileExists, setFileExists] = useState(null);
+
+	const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 	useEffect(() => {
         const fetchDownloadName = async () => {
@@ -30,7 +32,7 @@ export default function Program({ temario }) {
 		const checkFileExists = async (fileName) => {
 			try {
 				const response = await fetch(
-					`http://localhost:5000/api/download/verificar-archivo/${encodeURIComponent(fileName)}`
+					`${API_BASE_URL}/api/download/verificar-archivo/${encodeURIComponent(fileName)}`
 				); // Reemplaza con la ruta correcta
 				const result = await response.json();
 				setFileExists(result.exists);
@@ -42,7 +44,7 @@ export default function Program({ temario }) {
 		};
 
         fetchDownloadName();
-    }, [id]);
+    }, [id, API_BASE_URL]);
 
 
 
@@ -63,7 +65,7 @@ export default function Program({ temario }) {
 							<a
 								href={
 									fileExists
-										? `/syllabus/${encodeURIComponent(nameDownload.nombreCurso)}.pdf`
+										? `${API_BASE_URL}/syllabus/${encodeURIComponent(nameDownload.nombreCurso)}.pdf`
 										: "#"
 								}
 								className={`flex flex-row items-center gap-2 py-2 px-4 rounded-lg font-semibold uppercase text-gray-50 transition-all 
