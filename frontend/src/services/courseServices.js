@@ -16,10 +16,19 @@ const API_URL_DOWNLOAD = `${API_BASE_URL}/api/download`;
 
 // Obtener todos los cursos
 export const getCourses = async () => {
+
+	const cachedCourses = localStorage.getItem('courses');
+	
+	if (cachedCourses) {
+		console.log("📌 Obteniendo cursos del cache");
+		return JSON.parse(cachedCourses);
+	}
+
 	try {
-		console.log("📌 Haciendo petición a:", `${API_BASE_URL}/api/courses`);
+		// console.log("📌 Haciendo petición a:", `${API_BASE_URL}/api/courses`);
 		const response = await axios.get(`${API_BASE_URL}/api/courses`);
-		console.log("✅ Respuesta de la API:", response.data);
+		localStorage.setItem('courses', JSON.stringify(response.data));
+		// console.log("✅ Respuesta de la API:", response.data);
 		return response.data;
 	} catch (error) {
 		console.error("❌ Error al obtener cursos:", error.response?.status, error.message);
